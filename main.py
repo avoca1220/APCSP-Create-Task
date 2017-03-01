@@ -1,11 +1,9 @@
-
-from math import pi, sin, cos
-
 from direct.showbase.ShowBase import ShowBase
 from direct.task import Task
 from direct.actor.Actor import Actor
 from direct.interval.IntervalGlobal import Sequence
 from panda3d.core import Point3
+from pandac.PandaModules import WindowProperties
 
 class MyApp(ShowBase):
 
@@ -29,6 +27,8 @@ class MyApp(ShowBase):
         self.taskMgr.add(self.spinCameraTask, "spinCameraTask")
         self.taskMgr.add(self.keyInput, "keyInput")
         self.taskMgr.add(self.moveCharacter, "movecharacter")
+        self.taskMgr.add(self.mouseInput, "mouseInput")
+        self.taskMgr.add(self.lookCharacter, "lookCharacter")
 
         self.pandaActor = Actor("models/panda-model",
                                 {"walk": "models/panda-walk4"})
@@ -41,11 +41,20 @@ class MyApp(ShowBase):
         self.xpos = 0
         self.ypos = 0
 
+        self.angleH = 0
+
         #Speed at which the character/camera moves
-        self.movementValue = 0.2
+        self.movementInterval = 1
+        
+        self.lookInterval = 2
 
         #Dictionary of key states
-        self.keys = {"w" : False, "s" : False, "a" : False, "d" : False}
+        self.keys = {"w" : False,
+                     "s" : False,
+                     "a" : False,
+                     "d" : False,
+                     "arrow_right" : False,
+                     "arrow_left": False}
 
         #Create the four lerp intervals neede for the panda to
         #walk back and forth
@@ -76,7 +85,7 @@ class MyApp(ShowBase):
     #Define a procedure to move the camera
     def spinCameraTask(self, task):
         self.camera.setPos(self.xpos, self.ypos, 3)
-        self.camera.setHpr(270, 0, 0)
+        self.camera.setHpr(self.angleH, 0, 0)
         return Task.cont
 
     def setWToTrue(self):
@@ -110,6 +119,22 @@ class MyApp(ShowBase):
         self.keys["d"] = False
 
 
+
+    def setArrowRightToTrue(self):
+        self.keys["arrow_right"] = True
+
+    def setArrowRightToFalse(self):
+        self.keys["arrow_right"] = False
+
+
+    def setArrowLeftToTrue(self):
+        self.keys["arrow_left"] = True
+
+    def setArrowLeftToFalse(self):
+        self.keys["arrow_left"] = False
+
+
+
     def keyInput(self, task):
         self.accept("w", self.setWToTrue)
         self.accept("w-up", self.setWToFalse)
@@ -122,24 +147,45 @@ class MyApp(ShowBase):
 
         self.accept("d", self.setDToTrue)
         self.accept("d-up", self.setDToFalse)
-        
-        print("Getting input...")
+
+        return Task.cont
+
+    def mouseInput(self, task):
+        self.accept("arrow_right", self.setArrowRightToTrue)
+        self.accept("arrow_right-up", self.setArrowRightToFalse)
+
+        self.accept("arrow_left", self.setArrowLeftToTrue)
+        self.accept("arrow_left-up", self.setArrowLeftToFalse)
         return Task.cont
 
     def moveCharacter(self, task):
         if self.keys["w"] == True:
-            self.xpos += self.movementValue
+            self.ypos += self.movementInterval
 
         if self.keys["s"] == True:
-            self.xpos -= self.movementValue
+            self.ypos -= self.movementInterval
 
         if self.keys["a"] == True:
-            self.ypos += self.movementValue
+            self.xpos -= self.movementInterval
 
         if self.keys["d"] == True:
-            self.ypos -= self.movementValue
+            self.xpos += self.movementInterval
         return Task.cont
 
+    def lookCharacter(self, task):
+        if self.keys["arrow_right"] == True:
+            self.angleH -= self.lookInterval
+        if self.keys["arrow_left"] == True:
+            self.angleH += self.lookInterval
+        return Task.cont
+
+
 app = MyApp()
+
+props = WindowProperties()
+props.setTitle("Game")
+app.win.requestProperties(props)
+
+
 app.run()
 
