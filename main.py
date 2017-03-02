@@ -4,6 +4,7 @@ from direct.actor.Actor import Actor
 from direct.interval.IntervalGlobal import Sequence
 from panda3d.core import Point3
 from pandac.PandaModules import WindowProperties
+import math
 
 class MyApp(ShowBase):
 
@@ -30,18 +31,17 @@ class MyApp(ShowBase):
         self.taskMgr.add(self.mouseInput, "mouseInput")
         self.taskMgr.add(self.lookCharacter, "lookCharacter")
 
-        self.pandaActor = Actor("models/panda-model",
-                                {"walk": "models/panda-walk4"})
-        self.pandaActor.setScale(0.005, 0.005, 0.005)
-        self.pandaActor.reparentTo(self.render)
-        #Loop its animation
-        self.pandaActor.loop("walk")
+
 
         #Positions of character/camera
         self.xpos = 0
         self.ypos = 0
 
         self.angleH = 0
+        self.testAngleH = self.angleH
+
+        self.xInterval = 0.0
+        self.yInterval = 0.0
 
         #Speed at which the character/camera moves
         self.movementInterval = 1
@@ -55,30 +55,6 @@ class MyApp(ShowBase):
                      "d" : False,
                      "arrow_right" : False,
                      "arrow_left": False}
-
-        #Create the four lerp intervals neede for the panda to
-        #walk back and forth
-        pandaPosInterval1 = self.pandaActor.posInterval(13,
-                                                        Point3(0, -10, 0),
-                                                        startPos = Point3(0, 10, 0))
-        pandaPosInterval2 = self.pandaActor.posInterval(13,
-                                                        Point3(0, 10, 0),
-                                                        startPos = Point3(0, -10, 0))
-        pandaHprInterval1 = self.pandaActor.hprInterval(3,
-                                                        Point3(180, 0, 0),
-                                                        startHpr = Point3(0, 0, 0))
-        pandaHprInterval2 = self.pandaActor.hprInterval(3,
-                                                        Point3(0, 0, 0),
-                                                        startHpr = Point3(180, 0, 0))
-
-        #Create and play the sequence that coordinates the intervals
-        self.pandaPace = Sequence(pandaPosInterval1,
-                                  pandaHprInterval1,
-                                  pandaPosInterval2,
-                                  pandaHprInterval2,
-                                  name="pandaPace")
-
-        self.pandaPace.loop()
 
 
         
@@ -160,7 +136,30 @@ class MyApp(ShowBase):
 
     def moveCharacter(self, task):
         if self.keys["w"] == True:
-            self.ypos += self.movementInterval
+            self.testAngleH = self.AngleH + 90
+            
+                
+            self.yInterval = self.movementInterval * math.sin(self.angleH)
+            if self.yInterval < 0 and (self.angleH < 90 or self.angleH > 270):
+                self.yInterval *= -1
+
+            if self.yInterval > 0 and (self.angleH > 90 and self.angleH < 270):
+                self.yInterval *= -1
+            
+            self.ypos += self.yInterval
+
+
+            self.xInterval = self.movementInterval * math.cos(self.angleH)
+            if self.xInterval > 0 and (self.angleH < 180):
+                self.xInterval *= -1
+
+            if self.xInterval < 0 and (self.angleH > 180):
+                self.xInterval *= -1
+            
+
+            self.xpos += self.xInterval
+            
+            print(str(self.angleH) + ", " + str(self.yInterval) + ", " + str(self.xInterval))
 
         if self.keys["s"] == True:
             self.ypos -= self.movementInterval
@@ -175,9 +174,24 @@ class MyApp(ShowBase):
     def lookCharacter(self, task):
         if self.keys["arrow_right"] == True:
             self.angleH -= self.lookInterval
+
+            if self.angleH == 0:
+                self.angleH = 360
+
+            if self.angleH < 0:
+                self.angleH = 360 + self.angleH                
         if self.keys["arrow_left"] == True:
             self.angleH += self.lookInterval
+
+            if self.angleH == 360:
+                self.angleH = 0
+
+            if self.angleH > 360:
+                self.angleH = 360 - self.angleH
+                
+        #print str(self.angleH) 
         return Task.cont
+
 
 
 app = MyApp()
