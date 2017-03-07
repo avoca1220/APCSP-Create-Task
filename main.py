@@ -63,10 +63,6 @@ class MyApp(ShowBase):
         self.camera.setPos(self.xpos, self.ypos, self.zpos)
         self.camera.setHpr(self.angleH, 0, 0)
 
-        mousePos = base.win.getPointer(0)
-        mouseX = mousePos.getX()
-
-        print(str(mouseX))
         return Task.cont
 
     def setWToTrue(self):
@@ -222,7 +218,7 @@ class MyApp(ShowBase):
 app = MyApp()
 
 props = WindowProperties()
-props.setTitle("Game")
+props.setTitle("Caleb's Game")
 app.win.requestProperties(props)
 
 
