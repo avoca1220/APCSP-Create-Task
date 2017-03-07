@@ -25,7 +25,7 @@ class MyApp(ShowBase):
         self.scene.setPos(-8, 42, 0)
 
         #Add task spinCameraTask procedure to task manager
-        self.taskMgr.add(self.spinCameraTask, "spinCameraTask")
+        self.taskMgr.add(self.setCameraTask, "setCameraTask")
         self.taskMgr.add(self.keyInput, "keyInput")
         self.taskMgr.add(self.moveCharacter, "movecharacter")
         self.taskMgr.add(self.mouseInput, "mouseInput")
@@ -36,9 +36,9 @@ class MyApp(ShowBase):
         #Positions of character/camera
         self.xpos = 0
         self.ypos = 0
+        self.zpos = 10
 
         self.angleH = 0
-        self.testAngleH = self.angleH
 
         self.xInterval = 0.0
         self.yInterval = 0.0
@@ -59,9 +59,14 @@ class MyApp(ShowBase):
 
         
     #Define a procedure to move the camera
-    def spinCameraTask(self, task):
-        self.camera.setPos(self.xpos, self.ypos, 3)
+    def setCameraTask(self, task):
+        self.camera.setPos(self.xpos, self.ypos, self.zpos)
         self.camera.setHpr(self.angleH, 0, 0)
+
+        mousePos = base.win.getPointer(0)
+        mouseX = mousePos.getX()
+
+        print(str(mouseX))
         return Task.cont
 
     def setWToTrue(self):
@@ -135,40 +140,58 @@ class MyApp(ShowBase):
         return Task.cont
 
     def moveCharacter(self, task):
+        #Moving FORWARDS
         if self.keys["w"] == True:
-            self.testAngleH = self.AngleH + 90
             
-                
-            self.yInterval = self.movementInterval * math.sin(self.angleH)
-            if self.yInterval < 0 and (self.angleH < 90 or self.angleH > 270):
-                self.yInterval *= -1
+            #90 and 270 are on the wrong sides as far as this operation is concerned
+            angleForMovement = 360 - self.angleH
 
-            if self.yInterval > 0 and (self.angleH > 90 and self.angleH < 270):
-                self.yInterval *= -1
-            
-            self.ypos += self.yInterval
+            if angleForMovement == 360:
+                angleForMovement = 0
+
+            self.ypos += math.cos(math.radians(angleForMovement))
+            self.xpos += math.sin(math.radians(angleForMovement))
 
 
-            self.xInterval = self.movementInterval * math.cos(self.angleH)
-            if self.xInterval > 0 and (self.angleH < 180):
-                self.xInterval *= -1
-
-            if self.xInterval < 0 and (self.angleH > 180):
-                self.xInterval *= -1
-            
-
-            self.xpos += self.xInterval
-            
-            print(str(self.angleH) + ", " + str(self.yInterval) + ", " + str(self.xInterval))
-
+        #Moving BACKWARDS
         if self.keys["s"] == True:
-            self.ypos -= self.movementInterval
+            
+            #90 and 270 are on the wrong sides as far as this operation is concerned
+            angleForMovement = 360 - self.angleH
 
+            #Make sure angleForMovement is 0 instead of 360, as cosine doesn't work
+            #with 0
+            if angleForMovement == 360:
+                angleForMovement = 0
+                
+            self.ypos -= math.cos(math.radians(angleForMovement))
+            self.xpos -= math.sin(math.radians(angleForMovement))
+
+        #Moving LEFT
         if self.keys["a"] == True:
-            self.xpos -= self.movementInterval
+            angleForMovement = self.angleH
 
+            #Make sure angleForMovement is 0 instead of 360, as cosine doesn't work
+            #with 0
+            if angleForMovement == 360:
+                angleForMovement = 0
+                
+            self.ypos -= math.sin(math.radians(angleForMovement))
+            self.xpos -= math.cos(math.radians(angleForMovement))
+
+
+        #Moving RIGHT
         if self.keys["d"] == True:
-            self.xpos += self.movementInterval
+            angleForMovement = self.angleH
+
+            #Make sure angleForMovement is 0 instead of 360, as cosine doesn't work
+            #with 0
+            if angleForMovement == 360:
+                angleForMovement = 0
+                
+            self.ypos += math.sin(math.radians(angleForMovement))
+            self.xpos += math.cos(math.radians(angleForMovement))
+
         return Task.cont
 
     def lookCharacter(self, task):
@@ -188,6 +211,8 @@ class MyApp(ShowBase):
 
             if self.angleH > 360:
                 self.angleH = 360 - self.angleH
+
+        
                 
         #print str(self.angleH) 
         return Task.cont
