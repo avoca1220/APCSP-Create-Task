@@ -5,6 +5,7 @@ from direct.interval.IntervalGlobal import Sequence
 from panda3d.core import Point3
 from pandac.PandaModules import WindowProperties
 import math
+import sys
 
 class MyApp(ShowBase):
 
@@ -39,6 +40,7 @@ class MyApp(ShowBase):
         self.zpos = 10
 
         self.angleH = 0
+        self.angleP = 0
 
         self.xInterval = 0.0
         self.yInterval = 0.0
@@ -56,12 +58,21 @@ class MyApp(ShowBase):
                      "arrow_right" : False,
                      "arrow_left": False}
 
+        #Configuring cursor settings
+        wp = WindowProperties()
+        wp.setMouseMode(WindowProperties.MRelative)
+        wp.setCursorHidden(True)
+        self.win.requestProperties(wp)
+
+        self.mw = self.mouseWatcherNode
+
+
 
         
     #Define a procedure to move the camera
     def setCameraTask(self, task):
         self.camera.setPos(self.xpos, self.ypos, self.zpos)
-        self.camera.setHpr(self.angleH, 0, 0)
+        self.camera.setHpr(self.angleH, self.angleP, 0)
 
         return Task.cont
 
@@ -110,7 +121,9 @@ class MyApp(ShowBase):
     def setArrowLeftToFalse(self):
         self.keys["arrow_left"] = False
 
-
+    def killGame(self):
+        sys.exitfunc()
+        sys.exit()
 
     def keyInput(self, task):
         self.accept("w", self.setWToTrue)
@@ -125,6 +138,8 @@ class MyApp(ShowBase):
         self.accept("d", self.setDToTrue)
         self.accept("d-up", self.setDToFalse)
 
+        self.accept("escape", self.killGame)
+
         return Task.cont
 
     def mouseInput(self, task):
@@ -133,6 +148,30 @@ class MyApp(ShowBase):
 
         self.accept("arrow_left", self.setArrowLeftToTrue)
         self.accept("arrow_left-up", self.setArrowLeftToFalse)
+
+        if self.mw.hasMouse():
+            mouseX = self.mw.getMouseX()
+            mouseY = self.mw.getMouseY()
+
+                
+            base.win.movePointer(0, self.win.getXSize() / 2, self.win.getYSize() / 2)
+            
+            self.angleH += mouseX * -90
+            self.angleP += mouseY * 90
+
+            if self.angleP > 80:
+                self.angleP = 80
+
+            if self.angleP < -80:
+                self.angleP = -80
+            
+            
+            
+
+            print self.win.getYSize()
+            
+              
+        
         return Task.cont
 
     def moveCharacter(self, task):
@@ -147,6 +186,7 @@ class MyApp(ShowBase):
 
             self.ypos += math.cos(math.radians(angleForMovement))
             self.xpos += math.sin(math.radians(angleForMovement))
+
 
 
         #Moving BACKWARDS
@@ -207,6 +247,9 @@ class MyApp(ShowBase):
 
             if self.angleH > 360:
                 self.angleH = 360 - self.angleH
+
+        
+
 
         
                 
