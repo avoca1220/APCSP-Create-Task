@@ -29,6 +29,7 @@ class MyApp(ShowBase):
         self.taskMgr.add(self.setCameraTask, "setCameraTask")
         self.taskMgr.add(self.keyInput, "keyInput")
         self.taskMgr.add(self.moveCharacter, "movecharacter")
+        self.taskMgr.add(self.mouseInput, "mouseInput")
         self.taskMgr.add(self.lookCharacter, "lookCharacter")
 
 
@@ -141,9 +142,7 @@ class MyApp(ShowBase):
 
         return Task.cont
 
-
-    #Method that changes angle of camera
-    def lookCharacter(self, task):
+    def mouseInput(self, task):
         self.accept("arrow_right", self.setArrowRightToTrue)
         self.accept("arrow_right-up", self.setArrowRightToFalse)
 
@@ -162,40 +161,35 @@ class MyApp(ShowBase):
             #These account for Windows beign mean with the dimensions of the
             #fullscreen
             
-            #If the window height is an even number, do your thing.
+            #If the window height is an een number, do your thing.
             if float(self.win.getYSize()) % 2.0 == 0.0:
-                
                 self.angleP += float(mouseY * 30)
 
             #If the window height is an odd number, which causes a whole load of
-            #problems do fun things that fix said problems
+            #problems (because you can't divide an odd integer by 2 and get a
+            #useful number), do a bunch of fun things that make the problems
+            #magically disappear.
                 
             elif float(self.win.getYSize()) % 2.0 != 0.0:
+                self.angleP += ((float(mouseY) + (-0.5 / (float(self.win.getYSize() / 2))) * 30))
+
                 
-                self.angleP += ((float(mouseY) + (-0.5 / (float(self.win.getYSize())))) * 30)
                 
                 
-                print("Window height: " + str(self.win.getYSize()) \
-                      + " Mouse Y: " + str(self.win.getYSize() / 2) + " Mouse Y Should Be: "\
-                      + str(float(self.win.getYSize()) / 2.0))
-                
-            #Angle correction
+
             if self.angleP > 80:
                 self.angleP = 80
 
             if self.angleP < -80:
                 self.angleP = -80
-
-            if self.angleH == 360:
-                self.angleH = 0
-
-            if self.angleH > 360:
-                self.angleH = 360 - self.angleH
             
             
+            
+            
+              
+        
         return Task.cont
 
-    #Method that moves character in-game
     def moveCharacter(self, task):
         #Moving FORWARDS
         if self.keys["w"] == True:
@@ -252,6 +246,31 @@ class MyApp(ShowBase):
 
         return Task.cont
 
+    def lookCharacter(self, task):
+        if self.keys["arrow_right"] == True:
+            self.angleH -= self.lookInterval
+
+            if self.angleH == 0:
+                self.angleH = 360
+
+            if self.angleH < 0:
+                self.angleH = 360 + self.angleH                
+        if self.keys["arrow_left"] == True:
+            self.angleH += self.lookInterval
+
+            if self.angleH == 360:
+                self.angleH = 0
+
+            if self.angleH > 360:
+                self.angleH = 360 - self.angleH
+
+        
+
+
+        
+                
+        #print str(self.angleH) 
+        return Task.cont
 
 
 
