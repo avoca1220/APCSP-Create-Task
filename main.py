@@ -7,6 +7,7 @@ from pandac.PandaModules import WindowProperties
 import math
 import sys
 
+
 class MyApp(ShowBase):
 
     def __init__(self):
@@ -64,6 +65,7 @@ class MyApp(ShowBase):
         self.win.requestProperties(wp)
 
         self.mw = self.mouseWatcherNode
+
 
 
 

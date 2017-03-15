@@ -1,0 +1,117 @@
+var CB_JS_API = CB_JS_API || {};
+ 
+CB_JS_API.COLLEGE_SEARCH = (function () {
+    
+	//The current value of the autosuggest box
+	var currentValue = "";
+
+	//The callback passed to the name search api
+	var cb = null;
+
+	//The api key passed to the xml gateway.
+	var apiKey = "";
+
+	//The base url of the service call
+	/****** IMPORTANT: this url needs to be changed as part of the release process, depending on what it should point to in prod ********/ 
+	var baseUrl = "https://cbapis.org/bscsuggestions/suggestions?q=";
+	
+	//The cached current result set, used to check for exact match
+	var currentResults = null;
+
+	/**
+	 * @name fetchResults
+	 * @description Implements the jsonp call to bscollege to get a json response containing the bscollege results.
+	 * 
+	 */
+	function fetchResults () {
+				
+		var src = baseUrl+currentValue+"&api-key="+apiKey+"&callback=CB_JS_API.COLLEGE_SEARCH.parseResults";
+		
+		var jsonpTag = document.getElementById("jsonpTag");
+		if(jsonpTag) {
+		    document.getElementsByTagName("body")[0].removeChild(jsonpTag);   
+		}
+		var scriptTag = document.createElement("script");
+		scriptTag.setAttribute("id", "jsonpTag");
+		scriptTag.src = src;
+		document.getElementsByTagName("body")[0].appendChild(scriptTag);
+	}
+	
+	/**
+	 * @name parseResults
+	 * @description Parses the results of the fetchResults jsonp request and passes it to the callback supplied to
+	 * the getCollegeInfo call
+     * @param {Object} json The json string returned from BSCollege matching the given query.
+     * 
+	 */
+	function _parseResults(json) {
+	    if (cb && typeof(cb) == "function") {
+    		if (!json) {
+    		    cb(-1);
+    		} else {
+    		    currentResults = json.suggestionResponses;
+                cb(currentResults);    
+    		}    			        
+	    }
+	}
+    
+    /**
+     * @name getSuggestions
+     * @description This is the function called from the user of this API to get the college name search
+     * information.  A json object is returned from the jsonp call and passed to the given callback function.
+     * @param {Object} val the value to search on
+     * @param {Object} cb the callback function to pass the search results.
+     */
+	function _getSuggestions(val, callback) {
+		// invocation delay in millisecs
+		var invocationDelay = 100;
+		currentValue = val;
+		cb = callback;
+		setTimeout(fetchResults, invocationDelay);
+	}
+	
+	/**
+	 * @name goToProfile
+	 * @description Redirects the page to the BigFuture college profile page of the given id.
+     * @param {Object} id the id of the college to see.
+	 */
+	function _goToProfile(id, collegeName) {
+
+	    newLocation = "https://bigfuture.collegeboard.org/college-profile?id="+id+"&searchType=site_qfs&tp=bf&bf_cat=college";
+        if(collegeName)
+        {
+            newLocation += "&q="+collegeName;
+        }
+	    window.location = newLocation
+	}
+	
+	/**
+	 * @name goToSearch
+	 * @description Redirects the page to the BigFuture site search page if there is not an exact match
+	 * of one college in the result set.  If there is an exact match, redirects to that profile.
+     * @param {String} val the value of the text box to use for site search 
+	 */
+	function _goToSearch(val) {
+        if (!val) return;
+		newLocation = "https://bigfuture.collegeboard.org/sitesearch?q="+val+"&searchType=site_qfs&tp=bf&bf_cat=college"
+	    window.location = newLocation;
+	}
+	
+	/**
+	 * @name setApiKey
+	 * @description Sets the api key variable to be sent along with the service request.  This must be called before any functionality
+	 * can be accessed
+     * @param {String} key the api key.
+	 */
+	function _setApiKey(key) {
+        apiKey = key;
+    }
+    
+    return {
+    	setApiKey: _setApiKey,
+    	goToProfile: _goToProfile,
+    	goToSearch: _goToSearch,
+    	getSuggestions: _getSuggestions,
+    	parseResults: _parseResults
+    };
+}())

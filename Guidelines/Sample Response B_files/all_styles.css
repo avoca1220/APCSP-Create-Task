@@ -1,0 +1,3328 @@
+.articleIndexActive {font-family: arial,helvetica,verdana; font-size:12px; color:#006699; font-weight: bold}	
+.articleIndexLink {font-family: arial,helvetica,verdana; font-size:12px; color:#000; font-weight: bold}	
+.articleLink {font-family: arial,helvetica,verdana; font-size:13px; color:#0000CC}	
+
+.articleTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#CC0000; font-weight: bold}	
+.planningTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#CC0000; font-weight: bold}	
+.takingTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#33CC00; font-weight: bold}	
+.findingTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#EEBF01; font-weight: bold}	
+.gettingTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#CC6600; font-weight: bold}	
+.payingTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#0099CC; font-weight: bold}	
+.myorgTitleText {font-family: arial,helvetica,verdana; font-size:20px; color:#3333CC; font-weight: bold}	
+.articleByline {font-family: arial,helvetica,verdana; font-size:15px; color:#CC0000; font-weight: bold}	
+.planningByline {font-family: arial,helvetica,verdana; font-size:15px; color:#CC0000; font-weight: bold}	
+.takingByline {font-family: arial,helvetica,verdana; font-size:15px; color:#33CC00; font-weight: bold}	
+.findingByline {font-family: arial,helvetica,verdana; font-size:15px; color:#EEBF01; font-weight: bold}	
+.gettingByline {font-family: arial,helvetica,verdana; font-size:15px; color:#CC6600; font-weight: bold}	
+.payingByline {font-family: arial,helvetica,verdana; font-size:15px; color:#0099CC; font-weight: bold}	
+
+.GENERICsectionTitleAndBylineAndBodyText {}
+.arialTwenty003399Bold {font-family: arial,helvetica,verdana; font-size:20px; color:#003399; font-weight: bold}
+.arialFifteen003399Bold {font-family: arial,helvetica,verdana; font-size:15px; color:#003399; font-weight: bold}
+.arialTwelveBlack {font-family: arial,helvetica,verdana; font-size:12px; color: black}
+.arialFourteenFFCCCCBold {font-family: Arial, Helvetica, sans-serif; font-size: 14px; color:#FFCCCC; font-weight: bold}
+.arialTwelveBlackBold {font-family: Arial,Helvetica,sans-serif; font-size: 12px; color:#000; font-weight: bold}
+.arialTwelveWhite {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFF; font-weight: normal}
+.arialTwelveWhiteBold {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFF; font-weight: bold}
+.arialTwelveWhiteItalic {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#FFF; font-style: italic; font-weight: normal}
+.arialTwelve333333Bold {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: bold}
+.arialTwelve333333 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: normal}
+.arialTwelve006699Bold {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#006699; font-weight: bold}
+.arialTwelve006699 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#006699}
+.arialTwelve006699NoUnd {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#006699; text-decoration:none}
+.arialTwelve999999Bold {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#999999; font-weight: bold}
+.arialTwelveCCCBold {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#CCC; font-weight: bold}
+.arialEleven333333 {font-family: Arial, Helvetica, sans-serif; font-size: 11px; color:#333}
+.arialTen333333 {font-family: Arial, Helvetica, sans-serif; font-size: 10px; color:#333}
+.arialTwelveWhiteBoldItalic {font-family: arial; font-size:12px; color: white; font-weight:bold; font-style: italic}
+.arialTwelveBFCEDFBold {font-family: arial; font-size:12px; color: #BFCEDF; font-weight:bold;}
+.arialEleven000000 {font-family: arial; font-size: 11px; color: #000}
+.arialEleven006600 {font-family: arial; color: #006600; font-size: 11px}
+.arialElevenWhite {font-family: arial; font-size:11px; color: white; line-height : 11px; }
+.arialFourteen006699Bold {font-family: arial,helvetica,verdana; font-size:14px; color:#006699; font-weight: bold}
+.arialfourteenwhitebld { font-family:arial,helvetica,sans-serif; font-size:14px; color:#FFF; font-weight: bold; text-decoration:none}
+.arialfourteen3333bld { font-family:arial,helvetica,sans-serif; font-size:14px; color:#333; font-weight: bold; }
+.arialFifteen000000Bold {font-family: arial; font-size: 15px; color: #000; font-weight:bold}
+
+
+.footerText {font-family: arial,helvetica,verdana; font-size:11px; color:#666}	
+.helpTitleText {font-family: arial,helvetica,verdana; font-size:16px; color:#006699; font-weight: bold}	
+.importantStuffText {font-family: arial,helvetica,verdana; font-size:13px; color:#993300}	
+.mycollegesCollegeHd {font-family: arial,helvetica,verdana; font-size:13px; color:#3333CC; font-weight: bold}
+.mycollegesFormText {font-family: arial,helvetica,verdana; font-size:11px; color:#333}
+.mycollegesSubHd {font-family: arial,helvetica,verdana; font-size:13px; color:#006699; font-weight: bold}	
+.myorgDateText {font-family: arial,helvetica,verdana; font-size:11px; color:#333}
+.myorgFormText {font-family: arial,helvetica,verdana; font-size:13px; color:#006699}
+.myorgGeneralText {font-family: arial,helvetica,verdana; font-size:13px; color:#333}
+.myorgHead1 {font-family: arial,helvetica,verdana; font-size:17px; color:#FFF; font-weight: bold}
+.myorgHead2 {font-family: arial,helvetica,verdana; font-size:17px; color:#FFF; font-weight: bold}
+.myorgHead3 {font-family: arial,helvetica,verdana; font-size:17px; color:#FFF; font-weight: bold}
+.myorgHeadLink {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.myorgLink {font-family: arial,helvetica,verdana; font-size:13px; color:#333}
+.myorgWelcomeText {font-family: arial,helvetica,verdana; font-size:15px; color:#3333FF}
+.planningLinks {font-family: arial,helvetica,verdana; font-size:13px; color:#333}	
+.planningSubHd {font-family: arial,helvetica,verdana; font-size:12px; color:#006699; font-weight: bold}
+.planningText {font-family: arial,helvetica,verdana; font-size:13px; color:#333}
+.realdealSubhd {font-family: arial,helvetica,verdana; font-size:13px; color:#07488C; font-weight: bold}
+.rightExpertText {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF}		
+.rightHelpingSubhd {font-family: arial,helvetica,verdana; font-size:12px; color:#993333; font-weight: bold}	
+.rightHelpingText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}	
+.rightImportantText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}	
+.rightItstimeText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.rightLoancenterText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.rightQuickfindLink {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF}
+.rightQuizText {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF}
+.rightRealdealBotText {font-family: arial,helvetica,verdana; font-size:12px; color:#006699}	
+.rightRealdealText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}	
+.rightRelatedLinks {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF}	
+.rightSatalertDate {font-family: arial,helvetica,verdana; font-size:11px; color:#000}
+.rightSatalertHd {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF; font-weight: bold}
+.rightSatalertSubhd {font-family: arial,helvetica,verdana; font-size:12px; color:#3333CC; font-weight: bold}
+.rightSatalertText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}
+.rightSatquestionText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.rightSigninText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.rightSpotlightHd {font-family: arial,helvetica,verdana; font-size:17px; color:#FFF; font-weight: bold}	
+.rightSpotlightText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}	
+.searchAdvHd {font-family: arial,helvetica,verdana; font-size:13px; color:#C6A314; font-weight: bold}
+.searchAdvLink {font-family: arial,helvetica,verdana; font-size:12px; color:#000; font-weight: bold}
+.searchAdvText {font-family: arial,helvetica,verdana; font-size:12px; color:#000}
+.searchBoldLinks {font-family: arial,helvetica,verdana; font-size:12px; color:#006699; font-weight: bold}
+.searchBoldText {font-family: arial,helvetica,verdana; font-size:13px; color:#666; font-weight: bold}
+.searchBoxText {font-family: arial,helvetica,verdana; font-size:11px; color:#FFF}
+.searchHeadText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.searchLinks {font-family: arial,helvetica,verdana; font-size:12px; color:#006699}
+.searchNavIndicator {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF; text-decoration: none}
+.searchNavLinks {font-family: arial,helvetica,verdana; font-size:11px; color:#000}
+.searchNavMatches {font-family: arial,helvetica,verdana; font-size:12px; color:#003D7F; font-weight: bold}
+.searchNavTiny {font-family: arial,helvetica,verdana; font-size:11px; color:#FFF}
+.searchRelatedItem {font-family: arial,helvetica,verdana; font-size:12px; color:#003D7F}
+.searchText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.sidebysideHd {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF; font-weight: bold}
+.sidebysideLinks {font-family: arial,helvetica,verdana; font-size:12px; color:#333; font-weight: bold}
+.sidebysideSubhd {font-family: arial,helvetica,verdana; font-size:12px; color:#006699; font-weight: bold; line-height: 111px}
+.sidebysideText {font-family: arial,helvetica,verdana; font-size:12px; color:#333}
+.sidebysideTinyText {font-family: arial,helvetica,verdana; font-size:11px; color:#333}
+.signInText {font-family: arial,helvetica,verdana; font-size:11px; color:#003366}	
+.spotlightOnHomeHd {font-family: arial,helvetica,verdana; font-size:16px; color:#003366; font-weight: bold}	
+.spotlightOnText {font-family: arial,helvetica,verdana; font-size:13px; color:#003366}	
+
+.rightFreemodHd1 {font-family: arial,helvetica,verdana; font-size:17px; color:#FFF; font-weight: bold}
+.rightFreemodHd2 {font-family: arial,helvetica,verdana; font-size:13px; color:#FFF; font-weight: bold}
+.searchNavIndicatorLink {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF}
+
+.SequiturJumpPage {}
+.arialTenBlack {font-family: arial,helvetica,verdana; font-size:10px; color: black}
+.arialElevenWhite {font-family: arial,helvetica,verdana; font-size:11px; color: white}
+
+
+.APCentral {}
+.arialTen006699 {font-family:arial; font-size:10px; color:#006699;}
+.arialTwelve003399 {font-family: arial,helvetica,verdana; font-size:12px; color:#003399}
+.arialFourteenFF3333 {font-family: arial,helvetica,verdana; font-size:14px; color:#FF3333}
+.arialEleven999999 {font-family: arial,helvetica,verdana; font-size:11px; color:#999999}
+.arialEleven006699 {font-family: arial,helvetica,verdana; font-size:11px; color:#006699}
+.arialEleven006699Bold {font-family: arial,helvetica,verdana; font-size:11px; color:#000; font-weight: bold}
+.arialEleven99CCCCBold {font-family: arial,helvetica,verdana; font-size:11px; color:#99cccc; font-weight: bold}
+.arialTwelve619D00 {font-family:arial,helvetica,verdana; font-size:12px; color:#619D00}
+.arialTwelve666600Bold {font-family: arial,helvetica,verdana; font-size:12px; color:#666600; font-weight:bold}
+.arialSixteen666600Bold {font-family: arial,helvetica,verdana; font-size:16px; color:#666600; font-weight:bold}
+.arialTwenty003366Bold {font: bold 25px SerifaStd; color: #000;}
+.apH1 {font-family: arial,helvetica,verdana; font-size:16px; color:#666600; font-weight:bold}
+.apH2 {font-family: arial,helvetica,verdana; font-size:13px; color:#006699; font-weight: bold}	
+.apH3 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: bold}
+.apH4 {font-family: Courier New, sans-serif; font-size: 13px; color:#333; font-weight: normal}
+.apNew {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: normal}
+.apText {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: normal;line-height: 18px;}
+.apTextff0000 {font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#ff0000; font-weight: normal}
+.apTNR {font-family: Times New Roman; font-size: 16px; color:#333; font-weight: normal}
+
+li.square {list-style-position: outside; list-style-type: square}
+li.squareE9F2F7 {list-style-position: outside; list-style-type: square; color:#E9F2F7}
+ul.blue {font-family: arial,helvetica,verdana; font-size:11px; margin-top:0px; margin-bottom:0px; margin-left:16px; padding:0px}
+li.blue {font-family: arial,helvetica,verdana; font-size:11px; list-style-image:url(/apc/images/menubox.gif); list-style-type: square; margin-top:0px; margin-bottom:0px; margin-left:-10px}
+#leftnavmyapcentral
+{
+position: absolute;
+left: 190px;
+top: 256px;
+z-index:1;
+visibility: hidden;
+width: 213px;
+}
+#leftnavapcoursesandexams
+{
+position: absolute;
+left: 190px;
+top: 246px;
+z-index:2;
+visibility: hidden;
+width: 213px;
+}
+.withBorder{
+	border: 1px solid #000;
+}
+#leftnavpreap
+{
+position: absolute;
+left: 190px;
+top: 226px;
+z-index:3;
+visibility: hidden;
+width: 213px;
+}
+#leftnavapcommunity
+{
+position: absolute;
+left: 190px;
+top: 286px;
+z-index:3;
+visibility: hidden;
+width: 213px;
+}
+
+.ResearchDevelopment_added_20011208 {}
+.arialElevenBlue {font-family: arial,helvetica,verdana; font-size:11px; color: blue;}
+.arialElevenWBNound {font-family: arial,helvetica,verdana; font-size:11px; color: white; text-decoration: none; font-weight: bold}
+.arialSixteenWhiteBold {font-family: arial,helvetica,verdana; font-size:16px; color: white; font-weight: bold}
+.arialElevenA1C6DFBNound {font-family: arial,helvetica,verdana; font-size:11px; color: #A1C6DF; text-decoration: none; font-weight: bold}
+.arialTwelveBlue {font-family: arial,helvetica,verdana; font-size:12px; color: blue;}
+.arialTwelveBlueNobold {font-family: arial,helvetica,verdana; font-size:12px; color: blue; font-weight: normal}
+
+
+.MyOrganizer2_added_20011227 {}
+.arialFourteen006699Bold {font-family: arial,helvetica,verdana; font-size:14px; color:#006699; font-weight: bold}
+.arialElevenFF0000 {font-family: arial,helvetica,verdana; font-size:11px; color:#FF0000}
+.arialTwelveFF0000 {font-family: arial,helvetica,verdana; font-size:12px; color:#FF0000}
+.arialTwelveFFFBold {font-family: arial,helvetica,verdana; font-size:12px; color:#FFF; font-weight: bold}
+.arialElevenFFFBold {font-family: arial,helvetica,verdana; font-size:11px; color:#FFF; font-weight: bold}
+.arialElevenBlack {font-family: arial,helvetica,verdana; font-size:11px; color:#000}
+.arialElevenBlackBold {font-family: arial,helvetica,verdana; font-size:11px; color:#000; font-weight: bold}
+.arialEleven666666 {font-family: arial,helvetica,verdana; font-size:11px; color:#666}	
+.arialElevenCC0000 {font-family: arial,helvetica,verdana; font-size:11px; color:#CC0000}	
+.arialFourteen000000Bold {font-family: arial,helvetica,verdana; font-size:14px; color:#000; font-weight: bold}
+.satreg_cell_on {background-color:#E0F7D8}
+.satreg_cell_off {background-color:#FFF}
+.arialElevenE1BF38 {font-family: arial,helvetica,verdana; font-size:11px; color:#E1BF38}
+.arialEleven009900 {font-family: arial,helvetica,verdana; font-size:11px; color:#009900}
+.arialTwelve3333CCBold {font-family: arial,helvetica,verdana; font-size:12px; color:#3333CC; font-weight: bold}
+.arialTwelve3366CCBold {font-family: arial,helvetica,verdana; font-size:12px; color:#3366CC; font-weight: bold}
+.arialTwelveE36000Bold {font-family: arial,helvetica,verdana; font-size:12px; color:#E36000; font-weight: bold}
+.arialTwelveCC0000Bold {font-family: arial,helvetica,verdana; font-size:12px; color:#CC0000; font-weight: bold}
+
+.SATRegCrossSell_added_20020715 {}
+.arialEleven000000Bold {font-family: arial,helvetica,verdana; font-size:11px; color:#000; font-weight: bold}
+.arialFourteenCC0000Bold {font-family: arial,helvetica,verdana; font-size:14px; color:#CC0000; font-weight: bold}
+.arialTen000000 {font-family: arial,helvetica,verdana; font-size:10px; color:#000}
+.arialTwelve000000 {font-family: arial,helvetica,verdana; font-size:12px; color:#000}
+.arialTwelve000000Bold {font-family: arial,helvetica,verdana; font-size:12px; color:#000; font-weight: bold}
+.arialTwelve009900 {font-family: arial,helvetica,verdana; font-size:12px; color:#009900}
+.arialTwelve0099CC {font-family: arial,helvetica,verdana; font-size:12px; color:#0099CC}
+.arialTwelveCC0000 {font-family: arial,helvetica,verdana; font-size:12px; color:#CC0000}
+.arialTwelveE1BF38 {font-family: arial,helvetica,verdana; font-size:12px; color:#E1BF38}
+.arialTwelveE36000 {font-family: arial,helvetica,verdana; font-size:12px; color:#E36000}
+
+/* Table Formatting */
+.tableDark {font-family: arial, helvetica, verdana; font-size:11px; color:#000; background-color:#E0E0E0}
+.tableLight {font-family: arial, helvetica, verdana; font-size:11px; color:#000; background-color:#EEEEEE}
+.tableHeader {font-family: arial, helvetica, verdana; font-size:14px; color:#000; background-color:#EEEEEE}
+.tableSubhed {font-family: arial, helvetica, verdana; font-size:11px; color:#FFF; background-color:#999999}
+
+/* Search Styles */
+.searchResults {margin:30px 0px 30px 0px;}
+.searchBox {margin:10px 1px 10px 10px;}
+.searchCriteria {margin-top:2px;font-family:arial;font-size:12px;color:#000}
+.paraSm {margin:10px 0px 10px 0px;font-family:arial;font-size:12px;color:#000;}
+.searchTable {border:1px solid #CCC;}
+.searchCheck {margin:0px 0px 6px 0px;font-family:arial;font-size:12px;color:#000;}
+
+/* New Styles for Phase 2 */
+
+#APCsitenav, 
+#APCsitenav form,
+#APCsitenav td, 
+#APCfooter, 
+#APCfooter td  {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#APCsitenav {
+	width: 760px;
+	padding: 4px 0px 4px 0px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+#APCsitenav table {
+	padding: 0px;
+	margin: 0px;
+}
+#APCsitenav input {
+	border: 1px outset #B1F0FF;
+	border-top: 0px none transparent;
+	border-left: 0px none transparent;
+}
+#APCsitenav input.none {
+	border-right: 0px none transparent !important;
+	border-bottom: 0px none transparent !important;
+}
+#APCsitenav,
+#APCsitenav form, 
+#APCsitenav table td {
+	background-color:#CCC;
+}
+#APCsitenav,
+#APCsitenav form,
+#APCsitenav table td,
+#APCsitenav a {	
+	color: #676767;
+	font-size: 10px;
+	text-decoration: none;
+}
+#APCsitenav a:hover {
+	text-decoration: underline;
+}
+#APCsitenav input{
+	font-size: 10px;
+}
+
+.APChrule {
+	background-image: url(/apc/images/dottedrule.gif);
+	padding: 1px 0px 1px 0px;
+	margin-top:10px;
+	background-repeat: repeat-x;
+}
+
+#APCheader {
+	width: 720px;
+	margin: 0px 15px 15px 20px;
+}
+
+#APCsitenav form {
+	margin: 0px;
+	padding: 0px;
+}
+
+#APCsitenav table td,
+#APCsitenav table th {
+	vertical-align: middle;
+}
+
+#APCfooter {
+	font-family:arial;
+	width: 740px;
+	clear: both;
+	margin-left:10px;
+	padding-top: 20px;
+	padding-bottom: 15px;
+	color: #003366;
+}
+#APCfooter, 
+#APCfooter td {
+	font-size:10px;
+}
+#APCfooter table {
+	border-top: solid 1px #b9b9b9;
+}
+#APCfooter td {
+	padding-top: 2px;
+}
+#APCfooter a {
+	text-decoration: none;
+	font-size:10px;
+	color: #003366;
+}
+#APCfooter a:hover {
+	color: #000;
+}
+#APCbottomnav, #APCcopyright {
+	margin-top: 5px;
+}
+#APCcopyright {
+	color: #b9b9b9;
+}
+
+.APCnew {
+	vertical-align: super;
+	font-size:10px;
+	color:#ff0000;
+}
+
+
+.secText {font-family:arial;font-weight:bold;font-size:13px;color: #669900;}
+
+a.button  {
+	margin:0;
+	border: none;
+	padding:2px 0 0 20px;
+	height:17px;
+	background-image:url(/apc/images/arrow_box_tnav.gif);
+	background-repeat: no-repeat;
+	background-color: transparent;
+	text-align: left;
+	text-decoration: none;
+	font-size: 11px;
+	font-family: arial;
+	font-weight: bold;
+	color: #09f;
+}
+a.button:hover {
+	background-image:url(/apc/images/arrow_box_tnav_on.gif);
+}
+.popup #APCheader {
+	width: 100%;
+}
+.popup #APCfooter {
+	width: 100%;		
+	margin-right: 10px !important;
+}
+.popup #APCfooter.pop {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+.popup > #APCheader {
+	width: auto;
+}
+.popup > #APCfooter {
+	width: auto;
+}
+
+/*--- grey-bordered table ---*/
+.apc_table {
+	border:solid #CCC;
+	border-collapse:collapse;
+	border-width:1px 1px 1px 1px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	color:#333; 
+	font-weight: normal;
+
+}
+.apc_table th,
+.apc_table td {
+	border:solid #CCC;
+	border-width:1px 1px 1px 1px;
+	padding:4px 2px 4px 3px;
+}
+
+
+.apc-bordertable {
+	border:solid #ccc;
+	border-width:1px 0 0 1px;
+}
+.apc-bordertable th,
+.apc-bordertable td {
+	padding:9px;
+	border:solid #ccc;
+	border-width:0 1px 1px 0;
+	font-family:arial,helvetica,verdana;
+ 	font-size:11px;
+}
+
+
+/* 	
+	Adding two new rules for tables nested under #main-content. 
+	This is to add styling options for tables based on the new AP Central design guidelines. 
+
+*/
+
+#main-content .apc_table > tbody > tr > td {
+  padding: 10px;
+  line-height: 1.5;
+  vertical-align: top;
+  border-top: 1px solid #cccac8;
+}
+
+#main-content .apc_table tr:nth-child(even) td {
+	background-color:#EDF6FD;
+}
+
+/* this is to remove zebra styling from non-data tables, ie, tables whose role is presentation -- AL*/
+
+#main-content [role="presentation"].apc_table tr:nth-child(even) td {
+	background-color:#fff;
+}
+
+
+/*--- sidebar styles (box around link list) --*/
+.list {
+	font-size: 11px;
+	margin:0 0 10px 0;
+	border: 1px solid #CCC;
+}
+.sidebar_left {
+	font-size: 11px;
+	margin:0 15px 10px 0;
+	border: 1px solid #CCC;
+	clear:left;
+	float: left;
+}
+.sidebar_right {
+	font-size: 11px;
+	margin:0 0 10px 5px;
+	border: 1px solid #CCC;
+	clear:right;
+	float: right;
+}
+.list h3,
+.sidebar_left h3,
+.sidebar_right h3 {
+	font-size: 11px;
+	margin: 0 0 2px 0 !important;
+	background-color: #E9F2F7;
+	padding: 3.5px 6px !important;
+	color: #000 !important;
+}
+
+.list ul,
+.sidebar_left ul,
+.sidebar_right ul {
+	margin: 7px 3px 2px 3px;
+	padding:0px 0px 0px 16px;
+}
+
+ul
+{
+	margin: 0px 3px 12px 15px;
+	padding:0px 0px 0px 20px;
+}
+
+.list ul li,
+.sidebar_left ul li,
+.sidebar_right ul li {
+	list-style-type: square;
+	list-style-image: url(http://apcentral.collegeboard.com/apc/images/menubox.gif);
+	margin:3px 0px 0px 0px;
+	padding:1px;
+}
+.list a, .list a:visited, .list a:hover,
+.sidebar_left a, .sidebar_left a:visited, .sidebar_left a:hover,
+.sidebar_right a, .sidebar_right a:visited, .sidebar_right a:hover {
+	color: #006699;
+}
+
+/*** pushing the links closer to the bullets in the sidebars ***/
+.list ul li a,
+.sidebar_left ul li a,
+.sidebar_right ul li a {
+margin-left: -10px;
+}
+*> .list ul li a,
+*>.sidebar_left ul li a,
+*>.sidebar_right ul li a {
+margin-left: -6px;
+}
+/************************************************/
+
+
+/*-- <a> styles --*/
+a {
+ color:#005396;
+ font-family:arial,helvetica,verdana;
+}
+
+/* targeting homepage links that have HREF attributes to distinguish from other <a> elements that do not. -- AL */
+
+#sectionPage a[href^="http"], #sectionPage a[href^="https"], #sectionPage a[href^="mailto"] {
+ color:#005396;
+ font-size:12px;
+	line-height: 16px;
+	text-decoration:none;
+}
+
+
+#sectionPage a[href^="http"]:hover, #sectionPage a[href^="https"]:hover, #sectionPage a[href^="mailto"]:hover {
+	text-decoration: underline;
+}
+
+#sectionPage a,
+.aph3 a {
+ font-weight:bold;
+ color:black;
+}
+
+#sectionPage .articlePage a {
+ font-weight:normal;
+}
+.list a, 
+.apc-bordertable a {
+ font-size:11px;
+}
+
+
+
+
+/****image alignment*****/
+.imgcaption_left,
+.imgcaption_right,
+.imgcaption_center {
+       text-align:left;
+       font-family:arial, helvetica, sans-serif;
+       font-size:10px;
+       padding:0px 0px 5px 0px;
+}
+.imgcaption_left img,
+.imgcaption_right img,
+.imgcaption_center img {
+       display:block;
+       border:0;
+   	   margin:0px 0px 0px 0px;
+}
+.imgcaption_title {
+       font-size:13px;
+       font-weight:bold;
+       color:#336666;
+}
+.imgcaption_left {
+       float:left;
+       margin:10px 5px 5px 0;
+}
+.imgcaption_right {
+       float:right;
+	   vertical-align:top;
+       margin:10px 0 5px 5px;
+}
+.imgcaption_center {
+       text-align:center;
+       margin:10px 0 5px 0;
+}
+
+/****bibliography style*****/
+.biblio {
+		margin-left:.75in; 
+		text-indent:-0.25in;
+}
+
+
+/****indent style*****/
+.indent {
+		margin-left:33px; 
+}
+
+/* autologin popup */
+#autologin-help{
+
+ background:#fff;
+
+ border-top: 1px solid #000;
+
+ border-right: 2px solid #000; 
+
+ border-bottom: 2px solid #000;
+
+ border-left: 1px solid #000;
+
+ top:178px;
+
+ left:450px;
+
+ position:absolute;
+
+ padding:5px 17px;
+
+ font-size:13px; 
+
+ display:none;
+
+}
+
+#autologin-help{width:225px;}
+
+*> #autologin-help{width:190px;}
+
+#autologin-help h3{
+
+ color:#069;
+
+ margin:0;
+
+ font-weight:normal;
+
+ font-size:13px;  
+
+ float:left;
+
+}
+
+#autologin-help p{margin-top:5px;}
+
+#autologin-help-close{
+
+ float:right;
+
+ padding:0;
+
+ margin:0;
+
+}
+
+#autologin-help .hr{
+
+ display:block;
+
+ clear:both;
+
+ padding-top:2px;
+
+ border-bottom:1px solid #ccc;
+
+}
+
+
+/**************************************************
+IPE
+**************************************************/
+
+/* new styles specific to apcentral */
+/*resetting a few styles that need it for the header*/
+#branding, #nav{
+	line-height: 1;
+}
+#branding h1, #branding ul, #branding li {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+#nav {
+	list-style: none;
+}
+#audienceNav, 
+#audienceNav li{ 
+	margin-left:0px;
+	padding-left:0px;
+}
+#mainTable{
+	margin-left:46px;
+}
+*> #mainTable {
+	margin-left:90px;
+}
+#signedInRight {
+	font-size:11px;
+	font-family:arial;
+}
+#footer {
+	clear:both;
+}
+#leftnavTable {margin-top:34px;}
+#hideAllLayers {
+	display:block;
+	height:200px;
+	left:83px;
+	top:210px;
+	position:absolute;
+	width:10px;
+}
+.module p, .module h3, .module h4	{
+	font-size:11px;
+	font-family:Arial;
+}
+.module {
+	background-color:#e0ebcc;
+	padding:7px;
+	margin:0 0 10px 0;
+	/*! width:140px; */
+}
+.module h3 {
+	color:#012f62;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0;
+}
+.module h4 {
+	margin:10px 0 0 0;
+}
+ul.none, ul.none li {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#aboveSectionPage{margin-left:20px;}
+
+.log_status,
+.autologin_set{margin-right:85px;}
+
+.signed-in-apcentral .log_status,
+.signed-in-apcentral .autologin_set{margin-right:82px}
+
+.signed-out-apcentral .log_status,
+.signed-out-apcentral .autologin_set{margin-right:113px;}
+
+.inner-pages-apcentral .log_status,
+.inner-pages-apcentral .autologin_set{margin-right:85px;}
+
+#leftnavmyapcentral a,
+#leftnavapcoursesandexams a,
+#leftnavpreap a,
+#leftnavapcommunity a,
+.inner-pages-apcentral #mainTable a{font-weight:normal;}
+
+.inner-pages-apcentral #mainTable .aph3 a,
+.inner-pages-apcentral #mainTable #signedInRight a{font-weight:bold;}
+
+#apCentralHeader{
+	border-bottom:3px double #d3cbbf;
+	color: #003366;
+	line-height:1em;
+	margin:20px 0 0 0;
+	font: bold 32px SerifaStd;
+	width:755px;
+}
+.signed-in-apcentral #apCentralHeader{width:763px;}
+.signed-out-apcentral #apCentralHeader{width:732px;}
+.inner-pages-apcentral #apCentralHeader{width:755px;}
+
+/* specific styles chosen from ipe.css */
+#accessKeys {
+	display:none;
+	position:absolute;
+	top:200px;
+	left:150px;
+	background-color:#D3D3D3;
+	padding:15px;
+}
+#accessKeys li {
+	list-style-type:none;
+	padding:0;
+}
+#contentJump,
+#topJump,
+#navJump {
+	position:absolute;
+	left:-900em;
+	width:75px;
+}
+/* specific styles chosen from ipe_design.css */
+.noShow {
+	left: -9000px;
+	position: absolute; 
+}
+#page {
+	position:relative;
+	width:960px;
+	margin:14px auto;
+}
+#branding,
+#branding a {
+	font-size:10px;
+	color:#666;
+	text-decoration:none;
+}
+#branding h1 a {
+	text-indent:-9000em;
+	display:block;
+	background:url(http://apcentral.collegeboard.com/images/cbLogo-local.png);
+	background-repeat: no-repeat;
+	height:60px;
+	width:206px;
+	margin:10px;
+}
+#siteNav {
+	position:absolute;
+	height:20px;
+	top:0px;
+	right:185px;
+	margin:0;
+}
+#siteNav li {
+	display:inline;
+}
+#siteSearch {
+	position:absolute;
+	margin:0;
+	padding:0;
+	top:-6px;
+	right:10px;
+}
+#siteSearch input {
+	vertical-align:middle;
+}
+#siteSearch #q {
+	width:110px;
+	padding:1px 2px 2px 2px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	color:#666;
+	margin-top:2px;
+	margin-right:4px;
+
+}
+#siteSearch #searchGo {
+	margin-top:0;
+	background-color:#666;
+	font-size:9px;
+	color:white;
+	text-transform:uppercase;
+	border:none;
+}
+#siteSearch #advancedSearch {
+	display:none;
+	margin-top:3px;
+	padding-right:7px;
+	font-size:11px;
+	text-align:right;
+}
+#audienceNav {
+	height:20px;
+	margin-left:10px;
+}
+#audienceNav li {
+	display:inline;
+}
+#audienceNav a {
+	text-transform:uppercase;
+}
+#audienceNav #forProfessionals a,
+#audienceNav li.current a {
+	font-weight:bold;
+	color:#543807;
+}
+#nav {
+	position:relative;
+	height:40px;
+	margin:20px 0 0 0;
+	border-top:3px double #D3CBBF;
+	border-bottom:3px double #D3CBBF;
+	padding:0;
+	z-index:99;
+}
+#nav li {
+	float:left;
+	list-style-image:none;
+	margin:0;
+	line-height:16px;
+}
+#nav a {
+	display:block;
+	padding:4px 16px;
+	background-color:#f4F2EE;
+	font-size:12px;
+	font-weight:bold;
+	text-decoration:none;
+	text-transform:none;
+	border-left:1px solid #D3CBBF;
+}
+#nav a:link,
+#nav a:visited {
+	color:#543807;
+}
+#nav a:active,
+#nav a.current {
+	background-color:#C1D8EE;
+	color:#0e4070;
+}
+#nav a:hover {
+	color:#543807;
+	background-color:#D9D2C8;
+}
+#policy  a,
+#topnav1  a {
+     width:127px;
+}
+#membeship a,
+#topnav2 a {
+     width:80px;
+     padding-top:12px;
+     padding-bottom:12px;
+}
+#basics  a,
+#topnav3  a {
+    width:52px;
+	padding-top:12px;
+    padding-bottom:12px;
+}
+#guidance  a,
+#topnav4  a {
+     width:64px;
+}
+#k12 a,
+#topnav5 a {
+    width:96px;
+     padding-top:12px;
+     padding-bottom:12px;
+}
+#higherEd  a,
+#topnav6  a {
+     width:67px;
+}
+#development  a,
+#topnav7  a {
+     width:93px;
+}
+#research  a,
+#topnav8  a {
+     width:110px;
+}
+#nav li.last a { 
+	padding-right:20px;
+}
+#nav li.first a {
+	border-left:none;
+	padding-left:20px;
+}
+/* dropdown navigation styles */
+
+/*================================================================
+
+== Son of Suckerfish
+
+== Pure CSS Drop-Down Menus
+
+== http://www.htmldog.com/articles/suckerfish/dropdowns/
+
+================================================================*/
+
+#nav, #nav ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1;
+}
+#nav ul { 
+    /* margin-top: 2em;  */		
+/* hack */
+    z-index: 1; /* hack */
+
+ }
+#nav ul a {
+	display: block;
+	border:none !important;
+	padding:3px 10px;
+	padding-right:25px;
+	width:100%;
+	font-size:11px;
+	text-transform:none;
+}
+* > #nav ul a {
+	width:auto;
+}
+#nav ul a {
+	background:url(/common/prof/images/ipe_grayDot.gif) top left repeat-x !important;
+	background-color:#fff; 
+} 
+#nav ul li.last a {
+	background-image:none !important;
+}
+#nav ul a:hover {
+	background-color:#f4f2ee !important;
+	border:none;
+}
+#nav li { 
+    /* hack */
+    float: left; 
+} 
+#footer {
+	border-top:3px double #d3cbbf;
+	padding:10px;
+	font-size:11px;
+}
+#footerNav,
+#footerNav a {
+	color:#5d5d5d;
+	text-transform:capitalize;
+	text-decoration:none;
+}
+#footer #copyright {
+	margin-top:10px;
+	font-size:10px;
+	color:#959595;
+}
+#footer #trusteLogo {
+	display:block;
+	float:right;
+	width:116px;
+	height:32px;
+	background-image:url(/common/shared/images/truste-certified-privacy.gif);
+	background-repeat:no-repeat;
+	background-position:0 0;
+}
+
+/** NEW STYLES **/
+
+#content ul {
+	
+}
+#content ul li{
+	list-style-image:url(/apc/images/bullet_black.gif);
+	list-style-type:square;
+	margin-bottom:0px;
+	padding:0px;
+	margin-top:0px;
+	margin-left:13px;
+}
+
+#content h2 {
+	/*! font-family: arial,helvetica,verdana; */ font-size:13px; color:#006699; font-weight: bold;
+	margin-bottom:0px;
+}	
+
+#content h3 {
+	font-family: Arial, Helvetica, sans-serif; font-size: 12px; color:#333; font-weight: bold;
+	margin-bottom:0px;
+}
+
+#content p {
+	margin-top:0px;
+}
+
+.top {
+	margin-top:0px;
+}
+
+.listNav {
+	background-color:#e9f2f7;
+	background-image: url("/apc/images/arrow_blue.png");
+	background-position:left;
+	background-repeat:no-repeat;
+	padding:5px;
+	padding-left:15px;
+	width:200px;
+	margin-bottom:3px;
+	}
+	
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+/*================================================================
+
+== AP Central Redesign 2015
+
+== Main Content and Left Navigation
+
+================================================================*/
+
+/* TABLE ELEMENTS - Top Level Nav Container */
+
+table#left-nav-container{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 124px;
+	border-spacing: 0;
+}
+table#left-nav-container tr{
+	margin: 0;
+	padding: 0;
+	border-top: 0px;
+}
+/* First cell style - unique item */
+table#left-nav-container td.first{
+	margin: 0;
+	padding: 0;
+	height: 60px; 
+	width: 100%;
+	vertical-align: middle;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-left: 1px solid #d5d6d8;
+	border-right: 1px solid #d5d6d8;
+}
+/* Inner cell style */
+table#left-nav-container td.inside{
+	margin: 0;
+	padding: 0;
+	height: 60px; 
+	width: 100%;
+	vertical-align: middle;
+	border-top: 0px;
+	border-bottom: 1px solid #d5d6d8;
+	border-left: 1px solid #d5d6d8;
+	border-right: 1px solid #d5d6d8;
+}
+/* Inner cell style - class to add arrow image to signify nav item that leaves apcentral */
+table#left-nav-container td.outsideLink{
+	background-image: url('http://media.collegeboard.com/digitalServices/image/ap/apc-outside-link.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+table#left-nav-container td.expandable{
+	background-image: url('http://media.collegeboard.com/digitalServices/image/ap/apc-list-additional-menu.gif');
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+/*  UL ELEMENTS  - Top Level Nav  */
+
+#left-nav-item ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#left-nav-item ul li {
+	position: relative;
+	display: block;
+}
+#left-nav-item ul li span{
+	display: block;
+	vertical-align: middle;
+}
+#left-nav-item ul li a{
+	padding: 10px;
+	display: block;
+	font: normal 12px/16px Arial;
+	text-decoration: none;
+	color: #000;
+}
+#left-nav-item ul li a.outside{
+	background-image: url('http://media.collegeboard.com/digitalServices/image/ap/apc-outside-link.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+/* nav item to remain "selected" */
+#left-nav-item ul li:hover a,
+#left-nav-item ul li a:focus{
+	font: bold 12px/16px Arial;
+	color: #00539b;
+}
+
+/* UL ELEMENTS  - Second Level Nav  */
+
+#left-nav-item ul ul{
+	position: absolute;
+	display: none;
+}
+#left-nav-item ul ul li{
+	padding-left: 5px;
+	border-bottom: 1px solid #d5d6d8;
+	z-index: 1;
+
+}
+#left-nav-item ul ul li:hover,
+#left-nav-item ul ul li:focus{
+	padding-left:5px;
+	box-shadow: 0 0 0 5px #00539b inset;
+}
+#left-nav-item ul ul li a{
+	border-top: 0px;
+	background-color: #fff;
+	font: normal 12px/16px Arial;
+	color: #000;
+}
+#left-nav-item ul ul li:hover a,
+#left-nav-item ul ul li:focus a{
+	font: normal 12px/16px Arial;
+	color: #000;
+}
+#left-nav-item ul li:hover ul,
+#left-nav-item ul li:focus ul{
+	width: 175px;
+	position: absolute;
+	display: block; 
+	top: -5px;
+	left: 122px;
+	border: 1px solid #d5d6d8;
+	border-bottom: 0px;
+	background-color:#fff;
+	font: normal 12px/16px Arial;
+	color: #000;
+}
+/* Firefox fix */
+#left-nav-item ul li:hover ul, #left-nav-item ul li:focus ul, x:-moz-any-link, x:default{
+	width: 175px;
+	position: absolute;
+	display: block; 
+	top: -4.5px;
+	left: 122px;
+	border: 1px solid #d5d6d8;
+	border-bottom: 0px;
+	background-color:#fff;
+	font: normal 12px/16px Arial;
+	color: #000;
+}
+
+/* resets subnav font to match styles while allowing parent nav item to remain "selected" */
+#left-nav-item ul li:hover ul a,
+#left-nav-item ul li:focus ul a{
+	font: normal 12px/16px Arial;
+	color: #000;
+}
+
+/* Main Content */
+
+/* Default styles */
+#main-content{
+	margin-bottom: 10px;
+	/* font catch-all */
+	font: normal 12px/18px Arial;
+	color: #000;
+}
+#main-content a.hoverLink,
+.inner-pages-apcentral #mainTable #alert-box a,
+.inner-pages-apcentral #mainTable #sidebar-right a,
+.inner-pages-apcentral #mainTable #main-content a {
+	/* specify style for links to override previous css */
+	/* targeting links to test not using hoverLink class */
+	font: bold 12px/18px Arial;
+	color: #005396;
+	text-decoration: none;
+}
+#main-content a.hoverLink:hover,
+.inner-pages-apcentral #mainTable #alert-box a:hover,
+.inner-pages-apcentral #mainTable #sidebar-right a:hover,
+.inner-pages-apcentral #mainTable #main-content a:hover {
+	/* specify style for links to override previous css */
+	/* targeting links to test not using hoverLink class */
+	text-decoration: underline;
+}
+#main-content a.outsideLink,
+.inner-pages-apcentral #mainTable #alert-box a.outsideLink,
+.inner-pages-apcentral #mainTable #sidebar-right a.outsideLink,
+.inner-pages-apcentral #mainTable #main-content a.outsideLink {
+	/* specify style for links that leave apcentral */
+	padding-left: 10px; 
+	background-image: url('http://media.collegeboard.com/digitalServices/image/ap/apc-outside-link.gif'); 
+	background-repeat: no-repeat; 
+	background-position: -2px -5px;
+}
+#main-content p{
+	/* paragraph font */
+	font: normal 12px/18px Arial;
+	color: #000;
+}
+/* Bulleted List styles */
+#main-content ul,
+#sectionPage ul {
+	list-style-image: url('https://secure-media.collegeboard.org/digitalServices/image/misc/arrow_trans.gif'); 
+}
+#main-content ul li {
+	padding: 4px 0px; 
+	font: normal 12px/18px Arial;
+	color: #000;
+}
+#main-content ul li a{
+	font: normal 12px/18px Arial;
+	color: #005396;
+	text-decoration: none;
+}
+#main-content ul li a:hover{
+	text-decoration: underline;
+}
+
+/* Header styles */
+#main-content h2{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	font: bold 16px Arial;
+	color: #003366;
+}
+#main-content h3{
+	font: bold 14px Arial;
+	color: #000;
+}
+#main-content h4{
+	font: bold 12px Arial;
+	color: #000;
+}
+
+/* Custom horizontal rule style for split content */
+#main-content hr.shortDivider{
+	margin: 10px 0 10px 0;
+	text-align:left;
+	border: 0;
+	background:#000;	
+	height: 1px;
+	width: 20px;
+}
+#main-content span.badge
+{
+	/* style that controls elements such as 'New!' or 'Update!' to add emphasis to content */
+	padding: 3px;
+	border-radius: 2px;
+	background-color: #ccddeb;
+	font-size: 10px;
+	font-weight: 700;
+	color: #005396;
+	line-height: 2.5em;
+}
+
+/*  Call out boxes */
+
+/* Import Updates and Alert Box */
+#alert-box{
+	margin-bottom: 20px;
+	padding: 5px 10px 7px 50px;
+	border-radius: 10px;
+	border: 1px solid #B8CBD6;
+	background: url('http://media.collegeboard.com/digitalServices/image/ap/bluebar.gif');
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: left center;		
+}
+#alert-box h2{
+	margin-top: 10px;
+	font: normal 24px SerifaStd;
+	color: #00a0db;
+}
+#alert-box h3{
+	margin-bottom: -10px;
+	font: bold 16px SerifaStd;
+	color: #000;
+}
+#alert-box p{
+	font: normal 12px/18px Arial;
+	color: #000;
+}
+#alert-box a.hoverLink{
+	/* specify style for links to override previous css */
+	font: bold 12px/18px Arial;
+	color: #005396;
+	text-decoration: none;
+}
+#alert-box a.hoverLink:hover{
+	/* specify style for links to override previous css */
+	text-decoration: underline;
+}
+#alert-box ul {
+	list-style-image: url('https://secure-media.collegeboard.org/digitalServices/image/misc/arrow_trans.gif');
+}
+#alert-box li {
+    padding: 4px 0px;
+    font: normal 12px/18px Arial;
+    color: #000;
+}
+
+/* Callout Box - Green - Includes Button Style for Course and Exam Description files */
+#callout-box-green-container{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 12px;
+	background-color: #e3f2e1;
+}
+#callout-box-green{
+	padding: 15px 20px 5px 20px;
+	border: 1px #21941F solid;
+}
+#callout-box-green .green-button-style{
+	/* button style for files */
+	margin-bottom: 10px;
+	margin-left: -10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #21941F;
+	font-size: 11px;
+	color: #fff;
+}
+#callout-box-green .green-button-style p{
+	/* button style for description text */
+	margin: 0px;
+	padding: 0px;
+	font-size: 11px;
+	color: #fff;
+}
+.inner-pages-apcentral #mainTable #main-content #callout-box-green a.green-button-style-link{
+	/* button style for files - links */
+	font: bold 18px Arial!important;
+	color: #fff!important;
+	text-decoration: none;
+}
+.inner-pages-apcentral #mainTable #main-content #callout-box-green a.green-button-style-link:hover{
+	/* button style for files - links */
+	text-decoration: underline;
+}
+
+/* Callout Box - Blue */
+#callout-box-blue-container {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 12px;
+	background-color: #edf6fd;
+}
+#callout-box-blue{
+	padding: 2px 20px 5px 20px;
+	border: 1px #9ab2c8 solid;
+}
+
+/* Callout Box - Special Notice */
+#callout-box-notice{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 2px 20px 5px 22px;
+	border-top: 1px #003366 solid;
+	border-bottom: 1px #003366 solid;
+	background-color: #edf6fd;
+}
+#callout-box-notice h3{
+	margin-top: 15px;
+	font: bold 21px SerifaStd;
+	color: #003366;
+}
+
+/* Callout Box - Split Content - left box title of content, right box listing of information */
+#split-screen-box, table.split-screen-box {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0;
+	border-spacing: 0px;
+    	border-collapse: separate;
+}
+#split-screen-box td.split-screen-box-1{
+	/* content subject title */
+	padding-top: 15px;
+	width: 100px;
+	vertical-align: top;
+}
+#split-screen-box td.split-screen-box-1 h3{
+	margin-bottom: 0px;
+	font: bold 12px/18px Arial;
+	color: #000;
+}
+#split-screen-box td.split-screen-box-2{
+	/* content list */
+	padding-top: 15px;
+	padding-left: 50px;
+	vertical-align: top;
+}
+#split-screen-box td.split-screen-box-2 ul{
+	list-style-image: url('https://secure-media.collegeboard.org/digitalServices/image/misc/arrow_trans.gif'); 
+}
+#split-screen-box td.split-screen-box-2 ul li{
+	padding: 4px 0px; 
+	font: normal 12px/18px Arial;
+	color: #000;
+}
+#split-screen-box td.split-screen-box-2 ul li a{
+	font: normal 12px/18px Arial;
+	color: #005396;
+	text-decoration: none;
+}
+#split-screen-box td.split-screen-box-2 ul li a:hover{
+	text-decoration: underline;
+}
+
+
+/*================================================================
+
+== AP Central Course Overview Modules
+
+== Main Content 
+
+================================================================*/
+
+
+#content.overview.modules .new.module,
+#main-content.overview.modules .new.module {
+	width:100%;
+	background-color: #eeeeee;
+	margin: 18px 0;
+	padding:0;
+	display:table;
+	position:relative;
+	border:2px solid #eeeeee;
+	height: 100%;
+}
+
+#content.overview.modules .new.module:hover,
+#main-content.overview.modules .new.module:hover {
+	border:2px solid #006699;
+	 box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+}
+
+#content.overview.modules .new.module .content,
+#main-content.overview.modules .new.module .content {
+	display:table-cell;
+	padding: 20px;
+}
+
+#content.overview.modules .new.module .cta,
+#main-content.overview.modules .new.module .cta {
+
+	display: table-cell;
+	width: 50px;
+	height:100%;
+	background-color:#006699;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+#content.overview.modules .new.module .cta a,
+.inner-pages-apcentral #mainTable #main-content.overview.modules .new.module .cta a {
+	color:#fff;
+	text-decoration: none;
+	display: table;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+#content.overview.modules .new.module .cta a:focus,
+#main-content.overview.modules .new.module .cta a:focus {
+	border:1px dotted #fff;
+}
+
+#content.overview.modules .new.module .cta span.cb-icon-round-arrow,
+#main-content.overview.modules .new.module .cta span.cb-icon-round-arrow {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 24px;
+  position: relative;
+
+}
+
+#content.overview.modules .new.module h2,
+#main-content.overview.modules .new.module h2 {
+	font: bold 18px SerifaStd;
+	color: #333332;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+
+#content.overview.modules .new.module h2 .number,
+#main-content.overview.modules .new.module h2 .number {
+	margin-right:5px;
+	padding-right:10px;
+	border-right: 1px solid #333333;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#content.overview.modules .new.module .content p,
+#main-content.overview.modules .new.module .content p {
+	padding-left:7%;
+	font-size:12px;
+	line-height: 18px;
+}
+
+#content.overview.modules .new.module .time,
+#main-content.overview.modules .new.module .time {
+	position:absolute;
+	top:2px;
+	left: 79%;
+	float:right;
+	background-color:#333332;
+	color:#fff;
+	font-weight: bold;
+	font-size: 10px;
+	padding:1px 5px;
+	line-height: 18px;
+}
+
+#content.overview.modules .date.badge,
+#main-content.overview.modules .date.badge {
+
+
+	display: inline-block;	
+	background:#d0e3ec;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+	clear:both;
+	height: 30px;
+	line-height: 28px;
+	color:#003366;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+#content.overview.modules hr,
+#main-content.overview.modules hr {
+	height:1px;
+	background-color:#cccccc;
+	border:none;
+
+}
+
+#main-content {
+	margin-bottom:20px;
+}
+
+
+
+#main-content #sidebar-right h2 {
+	margin-top:0;
+	margin-bottom:10px;
+}
+
+
+
+#content-inner {
+	float:left;
+	width:70%;
+
+}
+
+#sidebar-right {
+	float:right;
+	width:25%;
+	padding-left:5%;
+}
+
+
+
+#sidebar-right ul {
+	margin-left:5px;
+	list-style-type:none;
+	list-style-image:none;
+	padding:0;
+}
+
+#main-content .apc_table {
+	width:100%;
+	margin-bottom:1.5em;
+}
+
+#main-content .apc_table caption {
+	font-weight:700;
+	margin:1em 0;
+}
+
+.landing .node-links-bundle,
+.landing .node-freeform-text {
+	display:table-cell;
+	vertical-align:middle;
+	height:100%;
+}
+
+.blk-2 .node-links-bundle,
+.blk-3 .node-links-bundle {
+	width:294px;
+	vertical-align: top; 
+	padding-bottom: 1em;
+}
+
+.blk-2 .node-freeform-text,
+.blk-3 .node-freeform-text {
+	clear: both; 
+	display: block;
+}
+
+.blk-2 #sidebar-right .content {
+	width: 588px; 
+	margin: 0 auto;
+}
+
+.blk-3 .node-links-bundle {
+	width:33%;
+}
+
+.blk-4 .node-links-bundle,
+.blk-4 .node-freeform-text {
+	width:25%;
+}
+
+.blk-5 .node-links-bundle,
+.blk-5 .node-freeform-text {
+	width:20%;
+}
+
+.node-links-bundle .block-content,
+.node-freeform-text .block-content {
+	padding:0 5%;
+}
+
+.landing .node-links-bundle h3 {
+	text-align:left;
+	margin:1em 0 .5em;
+}
+
+
+.landing .node-freeform-text h3 {
+    text-align: center;
+}
+
+.landing #goto-links,
+.landing #related-downloads,
+.landing #related-links {
+	border-color: #ccc;
+	border-style: solid;
+}
+
+.blk-2 #related-downloads {
+	border-width: 1px 0 1px 1px;
+}
+
+.blk-2 #related-links,
+.blk-3 #related-links {
+	border-width: 1px 1px 1px 0;
+}
+
+.blk-3 #related-downloads {
+	border-width: 1px 0 1px 0;
+}
+
+.blk-3 #goto-links {
+	border-width: 1px 0 1px 1px;
+}
+
+.landing.exam .node-links-bundle h3,
+.landing.courses .node-links-bundle h3 {
+	text-align:left;
+}
+
+.landing.exam .node-links-bundle .block-content,
+.landing.exam .node-freeform-text .block-content,
+.landing.courses .node-links-bundle .block-content,
+.landing.courses .node-freeform-text .block-content {
+	border:none;
+}
+
+.landing #content-inner {
+	float:none;
+	width:100%;
+}
+
+.landing #sidebar-right {
+	float:none;
+	width:100%;
+	display:table;
+	padding-left:0;
+}
+
+.asterisk {
+	color:red;
+}
+
+#main-content .subscript {
+	font-size:80%;
+}
+
+#main-content .screenshot {
+	margin-top:1em!important;
+}
+
+#main-content #upcoming-workshops {
+	text-align:center;
+	float:right;
+	clear:none;
+	border:1px solid #b8cbd6;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	max-width:150px;
+	margin:0 0 10px 10px;
+	padding:10px 15px;
+}
+
+#main-content #upcoming-workshops a {
+
+	text-decoration:none;
+
+}
+
+
+
+.youtube-embed iframe {
+
+	border:2px solid #ccc;
+
+}
+
+
+
+#goto-links,#related-downloads,#related-links,#learn-more-links,#contact-text {
+
+	background-color:#FAF9F7;
+
+	margin-bottom:15px;
+
+	border:1px solid #cccac8;
+
+	padding:5px!important;
+
+}
+
+
+
+.landing #contact-text {
+
+	background-color:transparent;
+
+	border:none;
+
+	margin-bottom:0;
+
+	padding:0!important;
+
+	}
+
+
+
+#sidebar-right ul li,#sidebar-right ul li a {
+
+	font-weight:400;
+
+	font-size:11px!important;
+
+	line-height:16px!important;
+
+	padding-left:0;
+
+}
+
+
+
+
+
+#goto-links h3,#related-downloads h3,#related-links h3 {
+	font-size:13px!important;
+	padding:0;
+}
+
+.ap-table th {
+
+background-color:#ebeae9;
+
+}
+
+
+
+.ap-table caption,
+.apc_table caption {
+
+	background-color:#ebeae9;
+
+	text-align:left;
+
+	font-weight:700;
+
+	border:1px solid #cccac8;
+
+	margin-bottom:0!important;
+
+	padding:5px 10px;
+
+}
+
+
+
+ 
+
+#main-content .ap-table.resources_table tr td:nth-child(1) {
+
+	background-color:#edf6fd;
+
+}
+
+
+ 
+
+
+#main-content .ap-table.casio tr:nth-child(even) td,
+#main-content .ap-table.hp tr:nth-child(even) td,
+#main-content .ap-table.sharp tr:nth-child(even) td,
+#main-content .ap-table.ti tr:nth-child(even) td {
+
+	background-color:#e0f1f9!important;
+
+}
+
+
+
+.collection .jumpBox {
+
+	display:block;
+
+	clear:none;
+
+	float:right;
+
+}
+
+
+
+.collection h3 {
+
+	display:inline;
+
+	margin:1em 0 .5em;
+
+}
+
+
+
+.resources_table .col2 {
+
+	width:60%;
+
+}
+
+
+
+.resources_table {
+
+	width:100%;
+
+	background:#edf6fd;
+
+	border-top:3px solid #036;
+
+	border-bottom:3px solid #036;
+
+	border-left:none;
+
+	border-right:none;
+
+	border-width:1px medium;
+
+	margin:1em 0;
+
+}
+
+
+
+#main-content .apc_table.resources_table td,
+#main-content .apc_table.resources_table tr {
+
+ 	border:none!important;
+	background-color:#edf6fd!important;
+}
+
+
+#main-content .ap-table.resources_table td,
+#main-content .ap-table.resources_table tr {
+	border:none;
+	background-color:#edf6fd;
+}
+
+
+
+#main-content .jumpBox a.anchorJump {
+
+	color:#00539B;
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:14px;
+
+	text-decoration:none;
+
+	width:110px;
+
+	height:auto;
+
+	float:right;
+
+	clear:none;
+
+	margin-bottom:0;
+
+	background-image:url(http://apcentral.collegeboard.com/apc/images/up-arrow-sprite.png);
+
+	background-repeat:no-repeat;
+
+	background-position:85px 0;
+
+	padding:3px 0;
+
+}
+
+
+
+#main-content h3.jumpBox a:hover,
+#main-content .jumpBox a.anchorJump:hover {
+
+	text-decoration:underline;
+
+	color:#006dcc;
+
+	background-position:85px -25px;
+
+}
+
+
+
+.anchor-menu-bar {
+
+	line-height:16px;
+
+	border:solid #d5d6d8;
+
+	display:inline-block;
+
+	border-width:1px 0;
+
+	margin:0 0 35px;
+
+	padding:0;
+
+}
+
+
+
+.anchor-menu-bar > li {
+
+	text-align:center;
+
+	display:inline-block;
+
+	list-style:none;
+
+	position:relative;
+
+	margin:7px 0;
+
+	padding:0 0 0 5px;
+
+}
+
+
+
+.anchor-menu-bar > li:last-child {
+
+padding-right:5px;
+
+}
+
+
+
+.anchor-menu-bar > li > a {
+
+	font-family:Arial, Helvetica, sans-serif;
+
+	font-size:12px;
+
+	color:#00539b;
+
+	text-decoration:none;
+
+	display:block;
+
+	width:89px;
+
+}
+
+
+
+.anchor-menu-bar > li:after {
+
+	content:'';
+
+	width:1px;
+
+	background:#d5d6d8;
+
+	top:5px;
+
+	left:-1px;
+
+	height:70%;
+
+	position:absolute;
+
+}
+
+
+
+.anchor-menu-bar > li:first-child:after {
+
+	background:transparent;
+
+}
+
+
+
+.anchor-menu-bar > li > a:focus,.anchor-menu-bar > li > a:hover {
+
+	text-decoration:underline;
+
+}
+
+
+
+#main-content #student-lower-nav-links {
+
+	font-weight:700;
+
+	padding-top:1em;
+
+	font-size:16px;
+
+	width:100%;
+
+	border-top:1px solid #ccc;
+
+}
+
+
+
+#main-content #lower-nav-back {
+
+	float:left;
+
+	padding:0 0 12px;
+
+}
+
+
+
+#main-content #lower-nav-forward {
+
+	float:right;
+
+	padding:0 0 12px;
+
+}
+
+
+
+#apc_footer {
+
+	clear:both;
+
+}
+
+
+
+#main-content .anchor-menu-bar {
+
+	margin:0!important;
+
+}
+
+
+
+.larger-image-link {
+
+	max-width:510px;
+
+	background:#fff;
+
+	color:#333;
+
+	display:block;
+
+	text-align:right;
+
+	padding-bottom:.2em;
+
+	clear:both;
+
+	margin:1em auto 0;
+
+}
+
+
+
+#main-content .tableSubhed {
+
+	color:#333;
+
+}
+
+
+
+#main-content .apc_table th p {
+
+	text-align:left;
+
+	padding:0 10px;
+
+}
+
+
+
+#main-content blockquote {
+
+	font-style:italic;
+
+}
+
+
+
+#main-content .quote-by {
+
+	width:100%;
+
+	text-align:right;
+
+}
+
+
+
+.anchor-menu-bar a,.inner-pages-apcentral #mainTable #main-content .larger-image-link a {
+
+	font-weight:400;
+
+}
+
+/* CSS for AP Exam Reskin */
+
+/* Mini anchor menu for exam pages */
+
+#main-content ul.anchor-menu-bar-mini {
+	width:100%;
+	margin:0 auto;
+	padding:0;
+	list-style:none;
+	display:inline-block;
+	text-align:center;
+	border-bottom: solid 1px #d5d6d8;
+	border-top: solid 1px #d5d6d8;
+}
+#main-content ul.anchor-menu-bar-mini > li {
+	text-align:center;
+	display:inline-block;
+	list-style:none;
+	position:relative;
+	margin: 7px 0px;
+	padding:0 0 0 5px;
+	width:6%;
+}
+#main-content ul.anchor-menu-bar-mini > li:last-child {
+	padding-right:5px;
+}
+#main-content ul.anchor-menu-bar-mini > li:first-child {
+	padding:0px;
+}
+#main-content ul.anchor-menu-bar-mini > li > a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#00539b;
+	text-decoration:none;
+	display:block;
+	padding: 0px 5px;
+}
+
+#main-content ul.anchor-menu-bar-mini > li:after {
+	content:'';
+	width:1px;
+	background:#d5d6d8;
+	top: 11%;
+	left: 4px;
+	height:70%;
+	position:absolute;
+}
+#main-content ul.anchor-menu-bar-mini > li:first-child:after {
+	background:transparent;
+}
+#main-content ul.anchor-menu-bar-mini > li > a:focus,.anchor-menu-bar > li > a:hover {
+	text-decoration:underline;
+}
+
+/* Callout Box - Bulletin  */
+
+#callout-box-bulletin{
+     margin-top: 20px;
+     margin-bottom: 0px;
+     padding: 2px 20px 5px 22px;
+     border-top: 3px #009edd solid;
+     border-bottom: 3px #009edd solid;
+     background-color: #f1fbfd;
+}
+#callout-box-bulletin h3{
+     margin-top: 15px;
+}
+
+/* Callout Box - Blue */
+#callout-box-blue-container {
+	margin-top: 20px;
+	margin-bottom: 0px;
+	padding: 12px;
+	background-color: #edf6fd;
+}
+#callout-box-blue{
+	padding: 2px 20px 5px 20px;
+	border: 1px #9ab2c8 solid;
+}
+#callout-box-blue-mini {
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 1px solid #e7f5fe;
+    background-color: #e7f5fe;
+    text-align: center;
+    overflow: auto;
+    max-width: 270px;
+}
+#callout-box-blue-mini .inner-left {
+    text-align: left;
+    float: left;
+}
+#callout-box-blue-mini .inner-right {
+    float: right;
+    text-align: left;
+}
+#callout-box-blue-mini h2 {
+    font: bold 16px Arial;
+    color: #000;
+    margin-bottom: 0px;
+}
+#callout-box-blue-mini p {
+    margin-top: 5px;
+}
+#callout-box-blue-mini div {
+    display: inline-block;
+    position: relative;
+}
+#callout-box-blue-mini div + div {
+    padding-left: 1.3em;
+}
+#callout-box-blue-mini div + div::before {
+    content: '';
+    border-left: 2px solid #4a749a;
+    position: absolute;
+    height: 60%;
+    left: 0;
+    top: 20%;
+}
+#callout-box-blue-mini .clear
+{
+     clear: both;
+}
+
+/* Adding apricot style for th shading */
+.apc_table th.cb-callout {
+    background: #faf9f7;
+    font-weight: 700;
+}
+
+/* End new styles for AP Exam Reskin */
+
+/* CSS for AP Coordinators landing pages */
+#main-content .ap-table td {
+
+	background:transparent;
+
+	vertical-align:top;
+
+}
+
+
+
+#main-content .ap-table-striped tr:nth-child(even) {
+	background:#fff;
+
+}
+
+
+#main-content .ap-table-striped tr:nth-child(odd) {
+	background:#e0f1f9;
+
+}
+
+#main-content .ap-table th,
+#main-content .ap-table caption {
+	background-color:#ebeae9;
+	text-align:left;
+
+}
+
+#main-content .ap-table caption {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:700;
+	font-size:12px;
+	margin:1em 0 0!important;
+	padding:5px 10px;
+}
+
+
+#main-content .ap-table th,
+#main-content .ap-table td,
+#main-content .ap-table caption {
+	border:1px solid #cccac8;
+	padding:10px;
+}
+
+#main-content .ap-table-condensed th,
+#main-content .ap-table-condensed td,
+#main-content .ap-table-condensed caption {
+	padding:5px;
+
+}
+
+#main-content .ap-table {
+	border-collapse:collapse;
+	width:100%;
+	margin-bottom:1.5em;
+}
+
+/* #main-content .ap-table-toc td {vertical-align: middle; border: none; padding: 0;} */
+#main-content .ap-table-toc {border-top: 4px solid #00539b;}
+#main-content .ap-table-toc tr {border-bottom: 1px solid #cccac8;}
+#main-content .ap-table-toc a.toc-link {font-weight: bold; color: #0098d8 !important; text-decoration: none; margin-bottom: .3em;}
+#main-content .ap-table-toc a.toc-link:hover {color: #00539b !important; text-decoration: underline;}
+#main-content .ap-table-toc {font-family: arial, helvetica, sans-serif;}
+/* #main-content .right-arrow-link {vertical-align: middle; width: 40px;} */
+#main-content .right-arrow-link a {height: 100%; text-align: center; text-decoration: none; width: 100%; display: table;}
+#main-content .right-arrow-link a:hover {text-decoration: none !important;}
+#main-content a.toc-link {font-size: 14px !important; display: inline;}
+#main-content .ap-table-toc span.cb-icon-icn_arrow_e {display: table-cell; font-size: 20px; position: relative; vertical-align: middle; color: #333;}
+#main-content .right-arrow-link {width: 40px; padding-top: 30%;}
+#main-content .ap-table-toc td { border: none; padding: 0;}
+
+
+/* CSS for PD Workshop search pages */
+.upcoming-workshops {margin-left:15px;}
+.upcoming-workshops h3 a {font-family: SerifaStd !important; font-size: 22px !important; line-height: 26px !important; color: #aaa !important;}
+.upcoming-workshops {width: 230px; float: right; clear: right; border: 1px solid #cccac8; margin-bottom: 10px;}
+.upcoming-workshops {display: table;}
+.upcoming-workshops .content {padding: 0 20px;}
+.upcoming-workshops .content p {color: #333;}
+.upcoming-workshops .content,
+.upcoming-workshops .workshop-search-link {display: table-cell;}
+.upcoming-workshops .workshop-search-link {height: 100%; background-color: #0085cf; width: 30px; vertical-align: middle; overflow: hidden;}
+.upcoming-workshops .workshop-search-link a {text-align: center; text-decoration: none; height: 100%; width: 100%; display: table; color: #fff;}
+.upcoming-workshops .workshop-search-link a:hover {text-decoration: none !important;}
+.upcoming-workshops span.cb-icon-icn_arrow-right {color: #fff; display: table-cell; font-size: 20px; position: relative; vertical-align: middle;}
+.length .duration-label {font-weight: bold;}
+
+/* CSS for Apricot Panels */
+
+#main-content .panel {
+border-color: #cccac8;
+color: #333;
+font-family: "Helvetica Regular",Helvetica,Arial,sans-serif;
+font-size: 0.875em;
+line-height: 1.28571em;
+}
+#main-content .panel {
+background-color: #fff;
+border-radius: 0;
+border-width: 1px;
+border-style: solid;
+box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+margin-bottom: 1.5em;
+}
+
+#main-content .panel-body {
+padding: 15px;
+}
+
+#main-content .panel-title {
+color: #fff !important;
+margin-bottom: 0;
+margin-top: 0;
+}
+
+#main-content .panel .panel-heading .panel-title {
+font-size: 14px;
+padding: 15px;
+}
+
+#main-content .panel.cb-panel-blue > .panel-heading {
+background-color: #00539b;
+border-color: #00539b;
+}
+
+.blk-1 #contact-text,
+.blk-1 .node-links-bundle {display: block;}
+.blk-1 .node-links-bundle .block-content {width: 500px; margin: 0 auto;}
+.blk-1 .node-links-bundle h3,
+.blk-1 .node-links-bundle .block-content {text-align: center;}
+
+
+/* Select Apricot Button styles */
+
+#main-content a.btn-primary {
+	color:#fff!important;
+}
+
+#main-content .btn-primary {
+	background-color:#007be6;
+	background-image:0;
+	color:#fff;
+	font-family:HelveticaNeueBold,"Helvetica Neue Bold",Helvetica,Arial,sans-serif;
+	font-weight:400;
+	text-shadow:0 -1px 0 rgba(0,0,0,.3);
+	-webkit-box-shadow:0 2px 3px 0 rgba(0,0,0,.3);
+	box-shadow:0 2px 3px 0 rgba(0,0,0,.3);
+	-webkit-transition:background-color 300ms ease-out;transition:background-color 300ms ease-out;
+	line-height:24px;
+}
+
+.btn-group-sm>.btn,#main-content .btn-sm {	font-size:14px;	border-radius:3px;	-webkit-background-clip:padding-box;	background-clip:padding-box;	padding:12px 32px;}.btn-primary.btn,#main-content .btn-secondary.btn {	border:0;	font-weight:700;}.btn {	margin-top:12px;	line-height:18px;	display:inline-block;	-webkit-font-smoothing:antialiased;	-moz-osx-font-smoothing:grayscale;}a.btn {	
+}
+#left-nav-item ul li {
+	margin: 0;
+}
+
+#main-content .btn-primary.active,
+#main-content .btn-primary.focus,
+#main-content .btn-primary.hover,
+#main-content .btn-primary:active,
+#main-content .btn-primary:focus,
+#main-content .btn-primary:hover {
+	color:#fff;background-color:#0060b3;
+	background-image:none;
+	-webkit-box-shadow:0 1px 3px 1px rgba(0,0,0,.3);
+	box-shadow:0 1px 3px 1px rgba(0,0,0,.3);
+	border-color:transparent;
+}
+
+/* Font imports */
+@font-face {  
+    font-family: 'SerifaStd';
+    src: url('https://common.collegeboard.org/css/fonts/serifa_light-webfont.eot'); /* IE9 Compat Modes */
+    src: url('https://common.collegeboard.org/css/fonts/serifa_light-webfont.eot?iefix') format('eot'), /* IE6-IE8 */
+         url('https://common.collegeboard.org/css/fonts/serifa_light-webfont.woff') format('woff'), /* Modern Browsers */
+         url('https://common.collegeboard.org/css/fonts/serifa_light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('https://common.collegeboard.org/css/fonts/serifa_light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+	font-family:'CB Icons';
+	src:url('cb-icons.eot');
+	src:url('cb-icons.eot?#iefix') format('embedded-opentype'),
+		url('cb-icons.woff') format('woff'),url('cb-icons.ttf') format('truetype'),
+		url('cb-icons.svg#cb_icons') format('svg');
+	font-weight:400;font-style:normal
+}
+
+[class*=" cb-icon-"],[class^=cb-icon-] {
+	font-family:'CB Icons';
+	speak:none;
+	font-style:normal;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+}
+
+
+.cb-icon-round-arrow:before {
+	content:"\e608";
+}
+
+.cb-icon-icn_arrow-right:before{
+	content:"\e613";
+}
+
+.cb-icon-icn_arrow_e:before{
+	content:"\e640"
+}
+
+.cb-icon-icn_check:before{
+content:"\e623"
+}
+
+.cb-icon-icn_arrow-resource:before{
+  content: "\e63d";
+  font-size: 34px;
+}
+
+
+/* Findability adds */
+#apc_footer {
+	width: 410px; 
+	height: 35px;
+}
+
+#apc_footer a {
+	font-size: 1em !important;
+}
+
+td.aph3 {
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}	
+
+/* CB Resource */
+.cb-resource {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.cb-resource .cb-resource-ico-sm {
+  font-size: 18px;
+}
+.cb-resource .cb-resource-ico-md {
+  font-size: 34px;
+}
+.cb-resource .cb-resource-ico-std {
+  font-family: 'CB Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0060b3;
+}
+.cb-resource .cb-resource-ico-std:before {
+  content: "\e63c";
+}
+.cb-resource .cb-resource-ico-std.cb-resource-ico-sm:before {
+  content: "\e900";
+}
+.cb-resource.cb-resource-sm .cb-resource-ico-std {
+  font-size: 18px;
+}
+.cb-resource.cb-resource-sm .cb-resource-ico-std:before {
+  content: "\e900";
+}
+.cb-resource .cb-resource-ico-download {
+  font-family: 'CB Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+  color: #0060b3;
+  position: relative;
+}
+.cb-resource .cb-resource-ico-download:before {
+  content: "\e63d";
+  font-size: 34px;
+}
+.cb-resource .cb-resource-ico-download:after {
+  content: attr(cb-data-value);
+  font-family: HelveticaNeueBold, "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  position: absolute;
+  top: 7px;
+}
+.cb-resource .cb-resource-ico-download.cb-single-digit:after {
+  left: 14px;
+}
+.cb-resource .cb-resource-ico-download.cb-double-digit:after {
+  left: 10px;
+}
+.cb-resource .cb-resource-ico-download.cb-triple-digit:after {
+  left: 7px;
+  font-size: 12px;
+  top: 8px;
+}
+.cb-resource .cb-resource-ico-view {
+  color: #0060b3;
+  border: 2px solid #0060b3;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  width: 29px;
+  height: 29px;
+  font-family: HelveticaNeueBold, "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 2em;
+}
+.cb-resource .cb-resource-ico-edu {
+  font-family: 'CB Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4c4b4a;
+}
+.cb-resource .cb-resource-ico-edu:before {
+  content: "\e63a";
+}
+.cb-resource .cb-resource-ico-series {
+  font-family: 'CB Icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #4c4b4a;
+}
+.cb-resource .cb-resource-ico-series:before {
+  content: "\e638";
+}
+.cb-resource .cb-resource-title {
+  margin: 0;
+  font-family: HelveticaNeueBold, "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.125em;
+  color: #0060b3;
+}
+.cb-resource .cb-resource-info {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  line-height: 0.8em;
+  display: inline-block;
+}
+.cb-resource .cb-resource-info span:not([class^="cb-resource-ico-"]) {
+  font-family: HelveticaNeueBold, "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5em;
+  text-transform: capitalize;
+}
+.cb-resource .cb-resource-info span[class^="cb-resource-ico-"] {
+  font-size: 11px;
+}
+.cb-resource .cb-resource-info span[class^="cb-resource-ico-"]:before {
+  padding-left: 3px;
+}
+.cb-resource .cb-resource-info span:not(:last-child):after {
+  content: '';
+  border-right: 1px solid #cccac8;
+  padding-left: 8px;
+  display: inline-block;
+  width: 1px;
+  position: relative;
+  top: 1px;
+  height: 11px;
+}
+.cb-resource .cb-resource-info span:not(:first-child) {
+  padding-left: 3px;
+}
+.cb-resource .cb-resource-desc {
+  margin: 0;
+  margin-top: 6px;
+  font-size: 12px;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 1.5em;
+}
+.cb-resource .cb-resource-item {
+  display: inline-block;
+  width: 100%;
+  line-height: 1em;
+  border-bottom: 1px solid #cccac8;
+}
+.cb-resource .cb-resource-item .cb-resource-ico,
+.cb-resource .cb-resource-item .cb-resource-body {
+  float: left;
+}
+.cb-resource .cb-resource-item:first-of-type {
+  border-top: 4px solid #00539b;
+  padding-top: 20px;
+}
+.cb-resource .cb-resource-item:last-child {
+  border-bottom: 0;
+}
+.cb-resource .cb-resource-item:first-child:last-child {
+  border-bottom: 1px solid #cccac8;
+}
+.cb-resource .cb-resource-item:not(:first-of-type) {
+  padding-top: 12px;
+}
+.cb-resource .cb-resource-item .cb-resource-body {
+  padding-right: 20px;
+  font-size: 18px;
+}
+.cb-resource .cb-resource-download {
+  margin-top: 6px;
+  margin-bottom: 18px;
+  line-height: 0.8em;
+  display: inline-block;
+}
+.cb-resource .cb-resource-download .cb-resource-download-all,
+.cb-resource .cb-resource-download .cb-resource-see-more {
+  font-family: HelveticaNeueBold, "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: #0060b3;
+  float: left;
+}
+.cb-resource .cb-resource-download .cb-resource-download-all:after {
+  content: '';
+  border-right: 1px solid #cccac8;
+  padding-right: 8px;
+}
+.cb-resource .cb-resource-download a:first-child:last-child:after {
+  border-right: 0;
+  padding-right: 0;
+}
+.cb-resource.cb-resource-sm .cb-resource-ico {
+  width: 28px;
+}
+.cb-resource.cb-resource-sm .cb-resource-ico-std {
+  font-size: 18px;
+  display: block;
+  overflow: hidden;
+  width: 18px;
+  height: 18px;
+}
+.cb-resource.cb-resource-sm .cb-resource-body {
+  width: -webkit-calc(100% - 28px);
+  width: calc(100% - 28px);
+}
+.cb-resource.cb-resource-md .cb-resource-ico {
+  width: 46px;
+}
+.cb-resource.cb-resource-md .cb-resource-ico-std {
+  font-size: 33px;
+  display: block;
+  overflow: hidden;
+  width: 32px;
+  height: 32px;
+}
+.cb-resource.cb-resource-md .cb-resource-body {
+  width: -webkit-calc(100% - 46px);
+  width: calc(100% - 46px);
+}
+.cb-resource.cb-resource-module {
+  width: 100%;
+  border: 1px solid #cccac8;
+  border-top: 4px solid #00539b;
+  padding: 26px 20px 18px 20px;
+  display: inline-block;
+}
+.cb-resource.cb-resource-module .cb-resource-title-block {
+  width: 100%;
+  float: left;
+}
+.cb-resource.cb-resource-module .cb-resource-title-block .cb-resource-ico {
+  float: left;
+  width: 46px;
+}
+.cb-resource.cb-resource-module .cb-resource-title-block .cb-resource-title {
+  width: -webkit-calc(100% - 46px);
+  width: calc(100% - 46px);
+  float: right;
+}
+.cb-resource.cb-resource-module .cb-resource-desc {
+  width: 100%;
+  float: left;
+}
+.cb-resource.cb-resource-module .cb-resource-info {
+  margin-bottom: 0;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-ico-download {
+  color: #4c4b4a;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-item {
+  border-top: 1px solid #cccac8;
+  padding-top: 18px;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-title {
+  color: #4c4b4a;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-info {
+  width: auto !important;
+  float: left;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download {
+  width: auto;
+  float: right;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download .cb-resource-see-more {
+  display: block;
+  margin-left: 8px;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download .cb-resource-see-more.open:after {
+  content: "See Less -";
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download .cb-resource-see-more:after {
+  content: "See More +";
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list {
+  margin-bottom: 0;
+  float: left;
+  margin-top: 18px;
+  background-color: #faf9f7;
+  border-top: 1px solid #cccac8;
+  padding-left: 46px;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list.collapse {
+  display: none;
+  visibility: hidden;
+  margin-top: 0;
+  width: 100%;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list.collapse.in {
+  display: block;
+  visibility: visible;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item {
+  border: 0;
+  border-bottom: 1px solid #cccac8;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item:last-child {
+  border-bottom: 0;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item .cb-resource-title {
+  color: #0060b3;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item .cb-resource-ico {
+  width: 32px;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item .cb-resource-ico-std {
+  font-size: 18px;
+  display: block;
+  overflow: hidden;
+  width: 18px;
+  height: 18px;
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item .cb-resource-ico-std:before {
+  content: "\e900";
+}
+.cb-resource.cb-resource-bulk-detail .cb-resource-download-list .cb-resource-item .cb-resource-body {
+  width: -webkit-calc(100% - 32px);
+  width: calc(100% - 32px);
+}
+.cb-resource.cb-resource-inline {
+  font-weight: 700;
+}
+.cb-resource.cb-resource-inline:hover {
+  cursor: pointer;
+}
+.cb-resource a[class^="cb-resource-ico"]:hover,
+.cb-resource a[class^="cb-resource-ico"]:focus {
+  text-decoration: none;
+}
+.cb-resource-item .cb-resource .cb-resource-item:first-child:last-child {
+  border-bottom: 0;
+}
+.cb-resource-item .cb-resource .cb-resource-item .cb-resource-info,
+.cb-resource-item .cb-resource .cb-resource-item .cb-resource-download {
+  margin-bottom: 15px;
+}
+.cb-resource-item .cb-resource > .cb-resource-item {
+  padding-top: 0;
+}
+.cb-resource-item .cb-resource.cb-resource-bulk-detail .cb-resource-item {
+  border-top: 0;
+}
+.cb-resource-modal .modal-header {
+  padding-bottom: 0;
+}
+.cb-resource-modal .modal-body {
+  padding-top: 0;
+}
+.cb-resource-modal .cb-resource-bulk-detail .cb-resource-item {
+  border-top: 0 !important;
+}
+.cb-resource-modal .cb-resource-bulk-detail .cb-resource-item .cb-resource-body {
+  width: -webkit-calc(100% - 78px);
+  width: calc(100% - 78px);
+}
+.cb-resource-modal .cb-resource-bulk-detail > .cb-resource-item {
+  padding-top: 0;
+  margin-bottom: 0;
+}
+.cb-resource-modal .cb-resource-bulk-detail .cb-resource-download,
+.cb-resource-modal .cb-resource-bulk-detail .cb-resource-info {
+  margin-bottom: 18px;
+}
+.cb-resource-modal .modal-content button.close {
+  float: left;
+}
+
+/* CTA Apricot Styling */
+
+.cb-cta {
+  border: 1px solid #cccacb;
+  padding: 18px;
+}
+.cb-cta a {
+  color: #000000;
+  width: 100%;
+  display: inline-block;
+}
+.cb-cta a:hover,
+.cb-cta a:focus {
+  color: #000000;
+  text-decoration: none;
+}
+.cb-cta a:hover h4,
+.cb-cta a:focus h4 {
+  text-decoration: underline;
+}
+.cb-cta a:hover p,
+.cb-cta a:focus p {
+  text-decoration: none;
+}
+.cb-cta .cb-cta-image {
+  width: 123px;
+  height: 108px;
+  display: table-cell;
+}
+.cb-cta .cb-cta-image img {
+  width: 108px;
+  height: 108px;
+  background-color: #ebe9e6;
+}
+.cb-cta .cb-cta-content {
+  font-family: "lexia", serif;
+  display: table-cell;
+  vertical-align: middle;
+}
+.cb-cta .cb-cta-content h4 {
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+}
+.cb-cta .cb-cta-content h4:hover {
+  text-decoration: underline;
+}
+.cb-cta .cb-cta-content p {
+  margin: 0;
+  margin-top: 18px;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+.cb-ctaband {
+  list-style: none;
+  float: left;
+  width: 100%;
+  border-top: 1px solid #cccacb;
+  border-bottom: 1px solid #cccacb;
+  padding: 0;
+}
+.cb-ctaband .cb-cta {
+  margin-bottom: 18px;
+  padding: 0;
+  float: left;
+  list-style: none;
+  width: 33.3333%;
+  border: 0;
+}
+.cb-ctaband .cb-cta a {
+  float: left;
+  margin-top: 18px;
+  padding: 0 18px 18px 18px;
+  border-right: 1px solid #cccacb;
+}
+.cb-ctaband .cb-cta:last-of-type a {
+  border-right: 0;
+}
+.cb-ctaband .cb-cta:first-child:nth-last-child(2):first-of-type,
+.cb-ctaband .cb-cta:first-child:nth-last-child(2) ~ .cb-cta:first-of-type {
+  margin-left: 16.6666%;
+}
+.cb-ctaband .cb-cta:first-child:nth-last-child(2):last-of-type,
+.cb-ctaband .cb-cta:first-child:nth-last-child(2) ~ .cb-cta:last-of-type {
+  margin-right: 16.6666%;
+}
+.cb-ctaband .cb-cta:first-child:nth-last-child(1),
+.cb-ctaband .cb-cta:first-child:nth-last-child(1) ~ .cb-cta {
+  margin-left: 33.3333%;
+}
+.cb-ctaband .cb-cta:first-child:nth-last-child(1) a,
+.cb-ctaband .cb-cta:first-child:nth-last-child(1) ~ .cb-cta a {
+  border-right: 1px solid #cccacb;
+  border-left: 1px solid #cccacb;
+}
+@media (max-width: 767px) {
+  .cb-ctaband .cb-cta {
+    width: 100%;
+    margin: 0 !important;
+  }
+  .cb-ctaband .cb-cta a {
+    border: 0 !important;
+    border-bottom: 1px solid #cccacb !important;
+    padding: 0 0 18px 0;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .cb-ctaband .cb-cta:last-of-type {
+    margin-bottom: 18px !important;
+  }
+  .cb-ctaband .cb-cta:last-of-type a {
+    border-bottom: 0 !important;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1),
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1) ~ .cb-cta {
+    margin-left: 33.3333%;
+  }
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1) a,
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1) ~ .cb-cta a {
+    border: 0;
+  }
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1) p,
+  .cb-ctaband .cb-cta:first-child:nth-last-child(1) ~ .cb-cta p {
+    display: block;
+  }
+  .cb-ctaband .cb-cta {
+    width: 66.6664%;
+    margin-left: 16.6666% !important;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  .cb-ctaband .cb-cta a {
+    border: 0;
+    border-bottom: 1px solid #cccacb;
+    padding: 0 0 18px 0;
+  }
+  .cb-ctaband .cb-cta:last-of-type {
+    margin-bottom: 18px;
+  }
+  .cb-ctaband .cb-cta:last-of-type a {
+    border-bottom: 0 !important;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1249px) {
+  .cb-ctaband .cb-cta p {
+    display: none;
+  }
+}
+.cb-cta-accordion .cb-cta-btn {
+  text-align: center;
+  position: relative;
+  float: left;
+  width: 100%;
+}
+.cb-cta-accordion .cb-cta-btn .cb-cta-see-more {
+  position: absolute;
+  width: 100px;
+  margin-left: -50px;
+  display: inline-block;
+  line-height: 36px;
+  padding: 0 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccacb;
+  text-align: center;
+  border-top: 0;
+}
+.cb-cta-accordion .cb-cta-btn .cb-cta-see-more:after {
+  content: "More +";
+}
+.cb-cta-accordion .cb-ctaband {
+  margin-bottom: 0;
+  -webkit-transition: height .5s;
+  transition: height .5s;
+  overflow: hidden;
+}
+.cb-cta-accordion .cb-cta {
+  border-bottom: 0;
+}
+.cb-cta-accordion .cb-cta.cb-no-border-btm {
+  border-bottom: 0;
+}
+.cb-cta-accordion .even-more {
+  border: none;
+  width: 100%;
+  float: left;
+  margin: 0;
+  text-align: center;
+  padding: 24px 0;
+  display: none;
+}
+.cb-cta-accordion.open .even-more {
+  display: none;
+}
+.cb-cta-accordion.open .cb-ctaband {
+  overflow: auto;
+  overflow-x: hidden;
+  height: auto;
+}
+.cb-cta-accordion.open .cb-cta {
+  border-bottom: 1px solid #cccacb;
+  padding-bottom: 18px;
+  margin-bottom: 0;
+  display: block !important;
+}
+.cb-cta-accordion.open .cb-cta-see-more:after {
+  content: "Less -";
+}
+@media (max-width: 767px) {
+  .cb-cta-accordion .cb-ctaband {
+    height: 470px;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta a {
+    border-bottom: 0 !important;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(1),
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(2) {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(n+4) {
+    display: none;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:last-child {
+    border-bottom: 0;
+  }
+}
+@media (max-width: 1023px) and (min-width: 768px) {
+  .cb-cta-accordion .cb-ctaband {
+    height: 350px;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta {
+    margin-left: 0 !important;
+    width: 50%;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta a {
+    padding: 0 18px 18px 18px !important;
+    border-bottom: 0 !important;
+    border-right: 1px solid #cccacb !important;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta p {
+    display: none;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(1),
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(2) {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(3),
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(4) {
+    padding-bottom: 18px;
+    margin-bottom: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(2n+2) a {
+    border-right: 0 !important;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(n+5) {
+    display: none;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta.cb-cta-tdb {
+    border-bottom: 0;
+  }
+  .cb-cta-accordion .cb-cta-btn.cb-cta-four {
+    display: none;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1249px) {
+  .cb-cta-accordion .cb-ctaband {
+    height: 327px;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta {
+    width: 50%;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta p {
+    display: block;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(1),
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(2) {
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 18px;
+    margin-bottom: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(3),
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(4) {
+    padding-bottom: 18px;
+    margin-bottom: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(2n+2) a {
+    border-right: 0 !important;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(n+5) {
+    display: none;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta.cb-cta-tdb {
+    border-bottom: 0;
+  }
+  .cb-cta-accordion .cb-cta-btn.cb-cta-four {
+    display: none;
+  }
+}
+@media (min-width: 1250px) {
+  .cb-cta-accordion .cb-ctaband {
+    height: 174px;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(3n+3) a {
+    border-right: 0;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta:nth-child(n+4) {
+    display: none;
+  }
+  .cb-cta-accordion .cb-ctaband .cb-cta.cb-cta-ob {
+    border-bottom: 0;
+  }
+}

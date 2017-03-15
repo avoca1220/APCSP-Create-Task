@@ -1,0 +1,6 @@
+/* Initialize DDL */
+window.digitalData = window.digitalData || {};
+window.digitalData.page = window.digitalData.page || {};
+window.digitalData.page.attributes = window.digitalData.page.attributes || {};
+window.digitalData.page.attributes.targetModsComplete = window.digitalData.page.attributes.targetModsComplete || 0;
+/* end Initialize DDL */
