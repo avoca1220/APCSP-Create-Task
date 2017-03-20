@@ -146,11 +146,6 @@ class MyApp(ShowBase):
 
     #Method that changes angle of camera
     def lookCharacter(self, task):
-        self.accept("arrow_right", self.setArrowRightToTrue)
-        self.accept("arrow_right-up", self.setArrowRightToFalse)
-
-        self.accept("arrow_left", self.setArrowLeftToTrue)
-        self.accept("arrow_left-up", self.setArrowLeftToFalse)
 
         if self.mw.hasMouse():
             mouseX = self.mw.getMouseX()
